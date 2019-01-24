@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://your-docusaurus-test-site.com/docs/authorisations</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/authorisations" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/beyond</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/beyond" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/essentials</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/essentials" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/gatewaykeys</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/gatewaykeys" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/payments</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/payments" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/paypage</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/paypage" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/docs/schedules</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/docs/schedules" /> </url>
+</urlset>

@@ -1,0 +1,304 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Payment page · asperato</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;The standard payment template is provided by Asperato and will look similar to the following:&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Payment page · asperato"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/index.html"/><meta property="og:description" content="&lt;p&gt;The standard payment template is provided by Asperato and will look similar to the following:&lt;/p&gt;
+"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.svg" alt="asperato"/></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"></ul></nav></div></header></div></div><div class="navPusher singleRowMobileNav"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>In depth</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">The Basics</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/essentials">Essentials</a></li><li class="navListItem"><a class="navItem" href="/docs/authorisations">Authorisations</a></li><li class="navListItem"><a class="navItem" href="/docs/payments">Payments</a></li><li class="navListItem"><a class="navItem" href="/docs/schedules">Payment Schedules</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">In depth</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/gatewaykeys">PSP Keys</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/paypage">Payment page</a></li><li class="navListItem"><a class="navItem" href="/docs/beyond">Beyond the core package</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Payment page</h1></header><article><div><span><p>The standard payment template is provided by Asperato and will look similar to the following:</p>
+<p><img src="/img/unmodified_template.png" alt="Asperato standard payment template" title="Asperato standard template"></p>
+<h2><a class="anchor" aria-hidden="true" id="template-features"></a><a href="#template-features" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template features</h2>
+<p>Out of the box, the template is highly dynamic and responds to a number of different parameters:</p>
+<ul>
+<li>Amount</li>
+<li>Frequency (including one off payments)</li>
+<li>Payment types (including combinations of payment types, such as Card &amp; Direct Debit, Paypal &amp; Direct Debit, Card, Paypal &amp; eCheck, etc.)</li>
+<li>Address data (can be pre-populated)</li>
+<li>URL to navigate to on completion of the payment</li>
+</ul>
+<p>The template also has the following dynamic elements built in:</p>
+<ul>
+<li>Notification if the Salesforce webservice cannot be contacted</li>
+<li>UK postcode checker &amp; lookup</li>
+<li>Display of card type based on card number</li>
+<li>Validation of card number using Luhn algorithm</li>
+<li>Display of issue number &amp; start date fields only if the card requires it</li>
+<li>Validation of security code as 3 or 4 digits depending on the card type</li>
+<li>Ability to switch between Card, Direct debit, eCheck or Paypal on the fly</li>
+<li>Ability to enter IBAN or distinct local bank details for all BACS / SEPA European Direct Debit countries</li>
+<li>Automatic hiding / showing and labelling of local bank detail fields based on selected country</li>
+<li>Compliant to BACS and SEPA scheme rules, correct compliance labelling is determined by scheme rules in the selected country</li>
+<li>Choice of payment type to show by default</li>
+</ul>
+<p>The template is fully responsive, works on all the latest versions of major browsers, and is routinely updated by Asperato to work with new card ranges and payment types.</p>
+<h2><a class="anchor" aria-hidden="true" id="minor-stylistic-changes"></a><a href="#minor-stylistic-changes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Minor stylistic changes</h2>
+<p>Minor stylistic changes, such as the fonts, colours and logo used can be made by Asperato. The full list of these changes includes:</p>
+<ul>
+<li>Changing page font</li>
+<li>Changing button colours (text and background in both normal and hover mode, and border)</li>
+<li>Changing link colour</li>
+<li>Changing the logo (ideal size is 400px wide and 80px high, though the height is the key factor.  Any bigger and you risk truncation)</li>
+<li>Changing the page title</li>
+<li>Hide / show &quot;pay as company&quot; link</li>
+<li>Hide / show postcode lookup</li>
+<li>Hide / show billing address</li>
+<li>Switch between IBAN and local details for Direct Debits</li>
+<li>Change the 'processing' gif from the default gears</li>
+</ul>
+<p>If you would like any customised changes in this regard, contact <a href="mailto:support@asperato.com">support@asperato.com</a> with details of the changes required.</p>
+<h2><a class="anchor" aria-hidden="true" id="using-the-template-as-an-overlay"></a><a href="#using-the-template-as-an-overlay" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the template as an overlay</h2>
+<p>The simplest way of using the template is as an overlay - this can be achieved by inserting minimal Javascript into an existing web page.</p>
+<p>Please note that this overlay library is intended to be used as a simple mechanism to show a payment page overlay that then returns back to the place it started from.  If you want to do anything more sophisticated then you should look at the source of the library and create your own version of it.</p>
+<p>The parameters that are used for setting up the overlay are equivalent to the parameters specified in the &quot;eCommerce URL&quot; (which can be found on any payment record, or in the case of the NPSP extension, on the campaign record):</p>
+<ul>
+<li>The &quot;pid&quot; parameter on the URL is the &quot;paymentRef&quot; parameter on the overlay;</li>
+<li>The &quot;pmRef&quot; parameter on the URL is the &quot;customerRef&quot; parameter on the overlay.</li>
+</ul>
+<p>For example, if the URL on a payment record is <code>https://demo.protectedpayments.net/PMWeb1?pmRef=121&amp;pid=a031n00000XGkm5</code>, then the <code>customerRef</code> parameter would be <code>121</code>, and the <code>paymentRef</code> parameter would be <code>a031n00000XGkm5</code>.</p>
+<p>To use the template as an overlay, just three bits of Javascript are needed:</p>
+<ul>
+<li>The following should be inserted in the <code>&lt;head&gt;</code> tag of the document:</li>
+</ul>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://live.protectedpayments.net/asperato-form-1.0.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>The following also needs to be inserted somewhere in the initialisation of the page (eg. in <code>&lt;head&gt;</code> or <code>window.onload</code>):</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">let</span> form = <span class="hljs-keyword">new</span> PaymentFormDisplay(
+    {
+        <span class="hljs-attr">customerRef</span>: <span class="hljs-number">9797</span> <span class="hljs-comment">//Replace with your customer reference</span>
+    }
+);
+</code></pre>
+<p>As per the comment, the customer reference <code>9797</code> is an example and will need to be changed to your unique reference (obtained when you sign up for an Asperato account.)</p>
+<ul>
+<li>The following code will need to be called to show the form (such as in the <code>onclick</code> attribute of a button):</li>
+</ul>
+<pre><code class="hljs css language-javascript">form.showForm(
+    {
+        <span class="hljs-attr">paymentRef</span>: <span class="hljs-string">"a030Y008393c4E4"</span>
+    }
+);
+</code></pre>
+<p>The above example will show the form for a particular payment reference in Salesforce, and will be pre-populated with the relevant details (amount, frequency, and so on.)</p>
+<p>If using the NPSP extension with Asperato, a campaign reference can also be supplied in the same way:</p>
+<pre><code class="hljs css language-javascript">form.showForm(
+    {
+        <span class="hljs-attr">campaignRef</span>: <span class="hljs-string">"7020Y000012RFJQ"</span>
+    }
+);
+</code></pre>
+<p>You may also set the default payment type shown on the payment page:</p>
+<pre><code class="hljs css language-javascript">form.showForm(
+    {
+        <span class="hljs-attr">paymentRef</span>: <span class="hljs-string">"a030Y008393c4E4"</span>,
+        <span class="hljs-attr">defaultPayType</span>: <span class="hljs-string">"dd"</span> <span class="hljs-comment">//"card", "dd", "paypal" or "echeck"</span>
+    }
+);
+</code></pre>
+<p>The above will allow the user to select the frequency, amount, and billing address - if necessary these details may be pre-populated as in the following example:</p>
+<pre><code class="hljs css language-javascript">form.showForm(
+    {
+        <span class="hljs-attr">campaignRef</span>: <span class="hljs-string">"7020Y000012RFJQ"</span>,
+        <span class="hljs-attr">amount</span>: <span class="hljs-number">50.58</span>,
+        <span class="hljs-attr">frequency</span>: <span class="hljs-string">"Annual"</span>,
+        <span class="hljs-attr">firstName</span>: <span class="hljs-string">"Frank"</span>,
+        <span class="hljs-attr">lastName</span>: <span class="hljs-string">"Tomlin"</span>,
+        <span class="hljs-attr">email</span>: <span class="hljs-string">"frank.tomlin@asperato.com"</span>,
+        <span class="hljs-attr">address1</span>: <span class="hljs-string">"94 Milky Way"</span>,
+        <span class="hljs-attr">address2</span>: <span class="hljs-string">"Mars Court"</span>,
+        <span class="hljs-attr">city</span>: <span class="hljs-string">"Winchester"</span>,
+        <span class="hljs-attr">county</span>: <span class="hljs-string">"Wessex"</span>,
+        <span class="hljs-attr">country</span>: <span class="hljs-string">"GB"</span>,
+        <span class="hljs-attr">postcode</span>: <span class="hljs-string">"WE1 3QX"</span>
+    }
+);
+</code></pre>
+<p>This is the full list of showForm parameters that are supported by the sample Asperato overlay library:</p>
+<table>
+  <tr>
+    <th>Parameter name</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+   <td>address1</td>
+   <td>First line of the billing address</td>
+  </tr>
+  <tr>
+   <td>address2</td>
+   <td>Second line of the billing address</td>
+  </tr>
+  <tr>
+   <td>amount</td>
+   <td>The payment amount (can be either an integer or a decimal)</td>
+  </tr>
+  <tr>
+   <td>city</td>
+   <td>The city value in the billing address</td>
+  </tr>
+  <tr>
+   <td>country</td>
+   <td>The country of the billing address</td>
+  </tr>
+  <tr>
+   <td>county</td>
+   <td>The county or state of the billing address</td>
+  </tr>
+  <tr>
+   <td>currency</td>
+   <td>An ISO 4217 currency code</td>
+  </tr>
+  <tr>
+   <td>defaultPayType</td>
+   <td>Where several payment routes are allowed this will set the default condition. When used must be one of: card, dd, paypal or echeck</td>
+  </tr>
+  <tr>
+   <td>email</td>
+   <td>The email address</td>
+  </tr>
+  <tr>
+   <td>firstName</td>
+   <td>The first name in the billing name details</td>
+  </tr>
+  <tr>
+   <td>frequency</td>
+   <td>The payment frequency allowed.  Can be one of Annual, Monthly, Quarterly or Single</td>
+  </tr>
+  <tr>
+   <td>lastName</td>
+   <td>The last name in the billing name details</td>
+  </tr>
+  <tr>
+   <td>paymentRef</td>
+   <td>The Salesforce ID of a Payment record and is the pid parameter of the URL shown in the "eCommerce URL" field</td>
+  </tr>
+  <tr>
+   <td>postcode</td>
+   <td>The postcode or zip code of the billing address</td>
+  </tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="warnings-errors"></a><a href="#warnings-errors" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Warnings &amp; Errors</h3>
+<p>If you run into problems then we would advise keeping an eye on your browser's console - many common issues (unknown fields, required fields not specified, field vales in the wrong format, etc.) are printed there as warnings or errors.</p>
+<h2><a class="anchor" aria-hidden="true" id="using-the-template-in-an-iframe"></a><a href="#using-the-template-in-an-iframe" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the template in an iframe</h2>
+<p>Many customers wish to use the template in an iframe as part of their existing site, rather than displaying it as a standalone page - this is supported by Asperato, as long as the containing site is served over TLS1.2 or newer. Please make sure your iframe element is large enough to contain the payment form without any scrollbars. We recommend a size of at least 500px width and 1000px height.</p>
+<p>Non-secure pages may not iframe the Asperato payment page in this way, as customers have no easy way of determining that the iframe itself is secure if the surrounding page is not.</p>
+<h3><a class="anchor" aria-hidden="true" id="postmessage-events"></a><a href="#postmessage-events" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PostMessage events</h3>
+<p>There are a number of standard postmessage events that occur when the template is operating in iframe mode.  The postmessage content is a simple string.  The values and their related events are documented in the table below.</p>
+<table>
+  <tr>
+    <th>Text string</th>
+    <th>Event</th>
+  </tr>
+  <tr>
+    <td>asp--redir:REDIR URL</td>
+    <td>On redirect to an external authorisation page (such as in the case of Paypal.) This message contains the value of that URL, so on receiving this message the parent page may choose to close the iframe and launch the new in a new tab / window.</td>
+  </tr>
+  <tr>
+    <td>asp--exit-screen</td>
+    <td>On load of the payment success screen</td>
+  </tr>
+  <tr>
+    <td>asp--error--value:ERROR MESSAGE</td>
+    <td>On load of the payment error screen, this message contains the value of the error message displayed to the user.</td>
+  </tr>
+  <tr>
+    <td>asp--error-screen</td>
+    <td>On load of the payment error screen</td>
+  </tr>
+  <tr>
+    <td>asp--error</td>
+    <td>When the Close Without Retry button is pressed on the error page</td>
+  </tr>
+  <tr>
+    <td>asp--complete</td>
+    <td>When the Finish button is pressed on the exit page</td>
+  </tr>
+  <tr>
+    <td>asp--cancel</td>
+    <td>When the cancel link is pressed on the main pay page</td>
+  </tr>
+  <tr>
+    <td>asp--dddialog</td>
+    <td>When the DD confirmation dialog box is displayed (allows the parent frame to refocus the iframe using "window.scrollTo(0,0)")</td>
+  </tr>
+</table>
+<p>By implementing an appropriate listener in the parent HTML you can make decisions based on these postmessage events.<br/>
+For example if you want to suppress the display of the success screen then you can close the iframe when the listener detects the text content &quot;asp--exit-screen&quot; in the body of the postmessage.</p>
+<p>Please note that we may add additional postmessage events from time to time - you must make sure that your integration won't cause an error if it receives a postmessage that it doesn't know about (ignoring it is fine.)</p>
+<h2><a class="anchor" aria-hidden="true" id="passing-parameters-in-the-url"></a><a href="#passing-parameters-in-the-url" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Passing parameters in the URL</h2>
+<p>Parameters may be passed to the payment page via URL parameters. Passing parameters in the URL is often useful for testing purposes.</p>
+<p>The parameters are simply added to the end of the URL in the normal <code>GET</code> format. For the parameter names, please see the &quot;Field names&quot; section below.</p>
+<p>As an example, if the normal URL to the payment page is:</p>
+<p><code>https://test.protectedpayments.net/PMWeb1?pmRef=903&amp;pid=7010Y000000DTD1</code></p>
+<p>Then the email can be pre-populated to <code>test@asperato.com</code> with the following URL:</p>
+<p><code>https://test.protectedpayments.net/PMWeb1?pmRef=903&amp;pid=7010Y000000DTD1&amp;DLemail=test@asperato.com</code></p>
+<h2><a class="anchor" aria-hidden="true" id="field-names"></a><a href="#field-names" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Field names</h2>
+<p>These field names can be passed to the URL of the payment page to pre-populate details.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlemail"></a><a href="#dlemail" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLemail</h3>
+<p>The email address of the customer.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlforename"></a><a href="#dlforename" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLforename</h3>
+<p>The first name.</p>
+<h3><a class="anchor" aria-hidden="true" id="dllastname"></a><a href="#dllastname" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLlastname</h3>
+<p>The last name.</p>
+<h3><a class="anchor" aria-hidden="true" id="dladdress1"></a><a href="#dladdress1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLaddress1</h3>
+<p>The first line of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="dladdress2"></a><a href="#dladdress2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLaddress2</h3>
+<p>The second line of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlcity"></a><a href="#dlcity" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLcity</h3>
+<p>The town or city of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlcounty"></a><a href="#dlcounty" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLcounty</h3>
+<p>The county or state of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlcountry"></a><a href="#dlcountry" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLcountry</h3>
+<p>The country of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="dlpostcode"></a><a href="#dlpostcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DLpostcode</h3>
+<p>The postcode, or zip code of the address.</p>
+<h3><a class="anchor" aria-hidden="true" id="defaultpaymentoption"></a><a href="#defaultpaymentoption" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DefaultPaymentOption</h3>
+<p>The payment option to show by default (one of &quot;card&quot;, &quot;dd&quot;, &quot;paypal&quot; or &quot;echeck&quot;).</p>
+<h3><a class="anchor" aria-hidden="true" id="labelfrequencyoptions"></a><a href="#labelfrequencyoptions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LabelFrequencyOptions</h3>
+<p>This will set the payment frequency (one of &quot;Single&quot;, &quot;Daily&quot;, &quot;Weekly&quot;, &quot;Monthly&quot;, &quot;Quarterly&quot;, &quot;Semi-annual&quot; or &quot;Annual&quot;)</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/gatewaykeys"><span class="arrow-prev">← </span><span>PSP Keys</span></a><a class="docs-next button" href="/docs/beyond"><span>Beyond the core package</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#template-features">Template features</a></li><li><a href="#minor-stylistic-changes">Minor stylistic changes</a></li><li><a href="#using-the-template-as-an-overlay">Using the template as an overlay</a><ul class="toc-headings"><li><a href="#warnings-errors">Warnings &amp; Errors</a></li></ul></li><li><a href="#using-the-template-in-an-iframe">Using the template in an iframe</a><ul class="toc-headings"><li><a href="#postmessage-events">PostMessage events</a></li></ul></li><li><a href="#passing-parameters-in-the-url">Passing parameters in the URL</a></li><li><a href="#field-names">Field names</a><ul class="toc-headings"><li><a href="#dlemail">DLemail</a></li><li><a href="#dlforename">DLforename</a></li><li><a href="#dllastname">DLlastname</a></li><li><a href="#dladdress1">DLaddress1</a></li><li><a href="#dladdress2">DLaddress2</a></li><li><a href="#dlcity">DLcity</a></li><li><a href="#dlcounty">DLcounty</a></li><li><a href="#dlcountry">DLcountry</a></li><li><a href="#dlpostcode">DLpostcode</a></li><li><a href="#defaultpaymentoption">DefaultPaymentOption</a></li><li><a href="#labelfrequencyoptions">LabelFrequencyOptions</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright"></section></footer></div></body></html>
