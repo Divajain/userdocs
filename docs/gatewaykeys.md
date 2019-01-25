@@ -123,7 +123,7 @@ Go to the URL: <a href="https://dashboard.stripe.com/account/integration/setting
  - The last question will expect you to key in the name of the company that built the integration.  For this please enter 'Asperato Payment System Ltd'.<br/>
  - Finally, press the 'Process payments unsafely' button:
 
-![Stripe direct API dialog](/img/stripe_config.png "Stripe direct API dialog")
+![Stripe direct API dialog](img/stripe_config.png "Stripe direct API dialog")
 
 Stripe might then ask you to verify you phone number, but once that is complete then you'll be able to process transactions.
 
