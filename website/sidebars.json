@@ -1,6 +1,6 @@
 {
   "docs": {
-    "The Basics": ["essentials", "authorisations", "payments", "schedules"],
+    "The Basics": ["essentials", "authorisations", "payments", "refunds", "schedules"],
 	"In depth": ["gatewaykeys", "paypage", "beyond"]
   }
 }
