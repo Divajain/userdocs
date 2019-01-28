@@ -21,9 +21,9 @@ Go to `Account > Settings > API Credentials & Keys`
 ## Braintree
 The information Asperato needs can be obtained from the Braintree Dashboard.
 
-For test/sandbox this is at <a href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
+For test/sandbox this is at <a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
 
-For live/production this is at <a href="https://www.braintreegateway.com/login">https://www.braintreegateway.com/login</a>
+For live/production this is at <a target="_blank" href="https://www.braintreegateway.com/login">https://www.braintreegateway.com/login</a>
 
 On the top of the dashboard screen there is an Account option, and under that appears a `My User` option when you hover over it.
 
@@ -39,7 +39,7 @@ Asperato then needs the values of the fields marked:<br/>
 ## CyberSource
 The information that Asperato needs can be obtained from the CyberSource dashboard.
 
-The login page for this is at <a href="https://ebc.cybersource.com/ebc/login/Login.do">https://ebc.cybersource.com/ebc/login/Login.do</a>
+The login page for this is at <a target="_blank" href="https://ebc.cybersource.com/ebc/login/Login.do">https://ebc.cybersource.com/ebc/login/Login.do</a>
 
 Make sure you select either the live or test business center as appropriate.
 
@@ -115,7 +115,7 @@ Stripe have implemented a new set of security rules to discourage merchants who 
 
 To enable Asperato to take payments on your behalf you will need to make an update to your Stripe configuration.
 
-Go to the URL: <a href="https://dashboard.stripe.com/account/integration/settings">https://dashboard.stripe.com/account/integration/settings</a>
+Go to the URL: <a href="https://dashboard.stripe.com/account/integration/settings" target="_blank">https://dashboard.stripe.com/account/integration/settings</a>
 
  - Log into Stripe, and on the page that displays click the 'Show advance options' link.<br/>
  - Enable the 'Process payments unsafely' link.<br/>
@@ -134,10 +134,10 @@ We need four pieces of information:
  - Client ID
  - Encryption key
  
- This information can be obtained from the setup emails sent by your integrations specialist. If you do not have an integrations specialist or have mislaid the original emails, then you'll need to <a href="http://connect.vancopayments.com/contact-vanco">contact Vanco</a> and ask them for this information.
+ This information can be obtained from the setup emails sent by your integrations specialist. If you do not have an integrations specialist or have mislaid the original emails, then you'll need to <a target="_blank" href="http://connect.vancopayments.com/contact-vanco">contact Vanco</a> and ask them for this information.
 
 ## Worldpay Online
-You need to log onto the <a href="https://online.worldpay.com/login">Worldpay Online Dashboard</a>.
+You need to log onto the <a target="_blank" href="https://online.worldpay.com/login">Worldpay Online Dashboard</a>.
 - Ensure you are in TEST mode.
 - On the top right of the screen click on `SETTINGS`.
 - Select the tab entitled `API Keys`.
