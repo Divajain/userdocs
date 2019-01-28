@@ -1,7 +1,7 @@
 ---
-id: install
-title: Install
-sidebar_label: Install
+id: setup
+title: Setup
+sidebar_label: Setup
 ---
 
 ## Pre install considerations

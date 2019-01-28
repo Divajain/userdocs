@@ -1,6 +1,6 @@
 {
   "docs": {
-    "The Basics": ["install", "authorisations", "payments", "refunds", "schedules", "troubleshooting"],
+    "The Basics": ["setup", "authorisations", "payments", "refunds", "schedules", "troubleshooting"],
 	"In depth": ["gatewaykeys", "paypage", "beyond"]
   }
 }
