@@ -15,8 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
+    const { siteConfig, language = '' } = this.props;
+    const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -36,12 +36,12 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
-	  <div>
-	    <h1 className="projectTitle">asperato ONE</h1>
+      <div>
+        <h1 className="projectTitle">asperato ONE</h1>
         <h2 className="projectTitle">
           <small>{siteConfig.tagline}</small>
         </h2>
-	  </div>
+      </div>
     );
 
     const PromoSection = props => (
@@ -64,16 +64,16 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-            <p style={{textAlign: 'left'}}>
-			  Asperato ONE is an AppExchange package which allows you to control payment collection from Salesforce in a secure, audited and compliant fashion.
-			  We support multiple payment methods (such as card, direct debit, eCheck, Paypal, etc.) and any payment processor, so long as they have a compatible API.
-		    </p>
-			<p style={{textAlign: 'left'}}>
-			  The documentation here will walk you through installing, setting up, using and customising the package. If you have any questions not covered here, please email support@asperato.com and we'll do our best to help.
-			</p>
+          <p className="paraText">
+            Asperato ONE is an AppExchange package which allows you to control payment collection from Salesforce in a secure, audited and compliant fashion.
+            We support multiple payment methods (such as card, direct debit, eCheck, Paypal, etc.) and any payment processor, so long as they have a compatible API.
+          </p>
+          <p className="paraText">
+            The documentation here will walk you through installing, setting up, using and customising the package. If you have any questions not covered here, please email support@asperato.com and we'll do our best to help.
+          </p>
           <PromoSection>
             <Button href={docUrl('essentials.html')}>Read the docs</Button>
-			<Button target="_blank" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">Try it now</Button>
+            <Button target="_blank" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">Try it now</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -83,8 +83,8 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = props => (
       <Container
@@ -102,7 +102,7 @@ class Index extends React.Component {
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
+        style={{ textAlign: 'center' }}>
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
       </div>

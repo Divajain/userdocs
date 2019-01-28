@@ -14,6 +14,14 @@ footer {
 	display: none;
 }
 
+.paraText {
+    text-align: left;
+}
+
+.homeWrapper {
+    max-width: 1000px;
+}
+
 p a {
 	text-decoration: underline;
 }
