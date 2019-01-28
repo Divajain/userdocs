@@ -10,7 +10,7 @@ sidebar_label: Payment Schedules
  
 Navigate to the authorisation record you want to use for the payment schedule. Select the dropdown arrow by the payment schedules related list, then hit the New button.
  
-`<screenshot>`
+![Related list](/userdocs/img/payment_schedule/related_list.png)
  
 The correct authorisation will already be pre-populated.
  
