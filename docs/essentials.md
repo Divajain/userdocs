@@ -1,7 +1,7 @@
 ---
-id: essentials
-title: Essentials
-sidebar_label: Essentials
+id: install
+title: Install
+sidebar_label: Install
 ---
 
 ## Pre install considerations
