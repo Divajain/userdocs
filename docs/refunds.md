@@ -7,7 +7,7 @@ sidebar_label: Refunds
 ## Collecting refunds
 To collect a refund against a payment, simply hit the "Refund" button or quick action on the payment record. You'll then be presented with a dialog:
 
-`<screenshot>`
+![Refund dialog](/userdocs/img/payments/refund_dialog.png)
 
 You can choose to refund up to the original amount of the payment. The refund will then be processed immediately.
 

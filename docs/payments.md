@@ -16,21 +16,15 @@ You can then access the payment page via one of two ways:
  
 Ad hoc payments can easily be taken where a related authorisation record is already set up.
 
-1. Navigate to the authorisation record for which you wish to set up a payment. Under the payment related list for the authorisation, select New
+1. Navigate to the authorisation record for which you wish to set up a payment. Under the payment related list for the authorisation, select `New`:
  
-`<screenshot>`
+![New payment from auth](/userdocs/img/payments/payment_related_auth.png)
  
 Note that the authorisation field will be pre-populated with the required authorisation record.
 
-2. Enter the required amount, and then hit Save:
- 
-`<screenshot>`
- 
-This will create the payment record with the authorisation attached.
+2. Enter the required amount, and then hit Save. This will create the payment record with the authorisation attached.
 
 3. Navigate to the payment record, then hit the Process payment button.
- 
-`<screenshot>`
  
 ## Automatically collecting payments against an existing authorisation
  
@@ -75,10 +69,10 @@ Payment statuses are provided as follows:
 ## Cancellations / Refunds in Salesforce
 If you wish to refund a payment, navigate to the payment record and press the “Refund” button. This will show as a standard button in classic, and a quick action in lightning:
  
-`<screenshot>`
+![Refund button](/userdocs/img/payments/refund_button.png)
  
 You’ll then see the refund dialog, where you can either choose to refund a specified amount (up to the original amount of the payment).
  
-`<screenshot>`
+![Refund dialog](/userdocs/img/payments/refund_dialog.png)
  
 Note that some payment service providers place restrictions on refunds. If this is the case, you will need to contact your payment service provider and ask them to enable refunds on your account.
