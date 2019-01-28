@@ -21,7 +21,7 @@ The Asperato package can be used in both Lightning and Classic mode, the functio
 The installation file can be downloaded from the Salesforce Appexchange. 
 Then simply head to the ‘Asperato Setup’ tab and follow the on-screen instructions to complete the installation. 
  
-Please note you must be in Lightning to complete this setup and have <a href=https://help.salesforce.com/articleView?id=domain_name_overview.htm&r=https%3A%2F%2Fwww.google.com%2F&amp;type=5" target="_blank">My Domain</a> configured.  
+Please note you must be in Lightning to complete this setup and have <a href="https://help.salesforce.com/articleView?id=domain_name_overview.htm&r=https%3A%2F%2Fwww.google.com%2F&amp;type=5" target="_blank">My Domain</a> configured.  
  
 ## Connect Salesforce to Asperato
 Asperato is a Connected App. To securely connect Salesforce to Asperato:
