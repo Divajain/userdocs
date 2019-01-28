@@ -9,9 +9,9 @@ Authorisation records are used when you want to collect and save a payment metho
  
 Saved payment method details, such as card or account number are always tokenised to protect you and your customer from fraud, don’t accept anything less.
  
-Your customer can register multiple authorisations with you, so you could in theory have both a card payment method on record as well as a Direct Debit mandate in place for making collecting future payments easy for both you and your customers.
+Your customer can register multiple authorisations with you, so you could have both a card payment method on record as well as a Direct Debit mandate in place.
  
-Asperato will always maintain these records, feeding into Salesforce any state changes that you need to be aware of; for example if your customer cancels a direct debit. Acting on these state changes is something you can do via Salesforce automation.
+Asperato will always maintain these records, updating Salesforce with any state changes that you need to be aware of (such as if your customer cancels a direct debit.) Acting on these state changes is something you can do via Salesforce automation.
  
 Key fields include:
 
@@ -72,18 +72,18 @@ The Asperato package can cover both of these use cases.
  
 To process an authorisation internally, hit the “Process authorisation” button. This will appear as a standard button in classic, and a quick action in lightning:
  
-`<screenshot>`
+![Process authorisation button](/userdocs/img/auth/process_authorisation.png "Process authorisation button")
  
 An overlay will appear showing the payment form. When this form is submitted, details of the authorisation will then show on the Salesforce object:
  
-`<screenshot>`
+![Auth details](/userdocs/img/auth/auth_details.png "Auth details")
  
 To supply a link for processing externally, look for the “Ecommerce URL” field on the authorisation object:
  
-`<screenshot>`
+![ECOM URL](/userdocs/img/auth/auth_ecom_url.png "ECOM URL")
  
 This will contain a URL pointing to a webpage for the user to enter their details to set up the authorisation, and can be distributed by any means necessary (email, IM, etc.) When the user has completed the form, the authorisation object will be populated in Salesforce the same way as before.
  
 ## Importing Authorisations to Salesforce
  
-If you require existing authorisations from your PSP to be populated in Salesforce, then please contact support@asperato.com with details of your requirements. 
+If you require existing authorisations from your PSP to be populated in Salesforce, then please contact support@asperato.com with details of your requirements.
