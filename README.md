@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Asperato/userdocs.svg?branch=master)](https://travis-ci.com/Asperato/userdocs)
+
 # Asperato user documentation
 
 Here lives the source for the Asperato user documentation, available at https://asperato.github.io/userdocs/. Unless you want to contribute to this documentation, you probably want to go there to [view it](https://asperato.github.io/userdocs/).
