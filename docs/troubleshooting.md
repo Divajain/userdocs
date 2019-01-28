@@ -16,5 +16,5 @@ This is likely to be one of a few scenarios:
  - A refund is not possible on this payment because of a restriction by your payment processor. Again, you'll need to contact them to find what this is - some processors only allow a certain number of refunds on a single payment, some only allow refunds after a certain length of time has passed, etc.
  - Your user does not have the required permissions to issue refunds. Asperato ships with an "Asperato refund user" permission set which you'll need to apply to the Salesforce user in question to allow them to issue refunds.
  
-## The "Getting started page" is blank
+## The "Getting started" page is blank
 You'll need to enable, and deploy "My Domain" to you users before you can view the "Getting started" page. <a href="https://help.salesforce.com/articleView?id=domain_name_overview.htm&amp;type=5" target="_blank">Please see instructions from Salesforce on how to do this</a>.
