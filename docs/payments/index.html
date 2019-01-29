@@ -108,4 +108,108 @@
 <p>You’ll then see the refund dialog, where you can either choose to refund a specified amount (up to the original amount of the payment).</p>
 <p><img src="/userdocs/img/payments/refund_dialog.png" alt="Refund dialog"></p>
 <p>Note that some payment service providers place restrictions on refunds. If this is the case, you will need to contact your payment service provider and ask them to enable refunds on your account.</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/userdocs/docs/authorisations"><span class="arrow-prev">← </span><span>Authorisations</span></a><a class="docs-next button" href="/userdocs/docs/refunds"><span>Refunds</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#collecting-one-off-payments">Collecting one-off payments</a></li><li><a href="#manually-collecting-ad-hoc-payments-against-an-existing-authorisation">Manually collecting ad-hoc payments against an existing authorisation</a></li><li><a href="#automatically-collecting-payments-against-an-existing-authorisation">Automatically collecting payments against an existing authorisation</a></li><li><a href="#required-data">Required data</a></li><li><a href="#statuses">Statuses</a></li><li><a href="#cancellations-refunds-in-salesforce">Cancellations / Refunds in Salesforce</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/userdocs/" class="nav-home"></a><div><h5>Docs</h5><a href="/userdocs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/userdocs/docs/en/doc2.html">Guides (or other categories)</a><a href="/userdocs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/userdocs/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/userdocs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/userdocs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright"></section></footer></div></body></html>
+<h2><a class="anchor" aria-hidden="true" id="payment-outcomes"></a><a href="#payment-outcomes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Payment outcomes</h2>
+<p>Not all payments will succeed - they may fail for a variety of reasons, such as insufficient funds, a billing address that doesn't match, the card has been blocked, etc. Asperato will sanitise all error responses across payment service providers to one of a set of values. This enables you to easily automate different flows off the back of specific failure reasons, rather than failures in general.</p>
+<p>The sanitised responses we currently support are listed here:</p>
+<table class="sanitisedResponses">
+<tr>
+<th>NOT_COMPLETED</th>
+<td>The payment gateway authorisation screen was not completed correctly.</td>
+</tr>
+<tr>
+<th>DECLINED</th>
+<td>Transaction declined, a reason was not given. Please try again. If no luck, try a different payment method.</td>
+</tr>
+<tr>
+<th>DECLINED_AUTH_NOT_FOUND</th>
+<td>A repeat payment was attempted using an authorisation, but the gateway did not have a record of this authorisation.</td>
+</tr>
+<tr>
+<th>DECLINED_NAME</th>
+<td>Transaction declined, a valid name was not provided.</td>
+</tr>
+<tr>
+<th>DECLINED_FRAUD</th>
+<td>Transaction declined. A reason was not given.</td>
+</tr>
+<tr>
+<th>DECLINED_AVS</th>
+<td>Declined, billing address does not match the address held by the bank. Please check the address entered.</td>
+</tr>
+<tr>
+<th>DECLINED_AVS_MISSING_INFO</th>
+<td>Declined, required billing information not specified. Please check you have completed all required fields.</td>
+</tr>
+<tr>
+<th>DECLINED_ABA</th>
+<td>Declined, routing number was incorrect</td>
+</tr>
+<tr>
+<th>DECLINED_CARD_DETAILS</th>
+<td>Declined, card details were incorrect. Please check the card details entered. If the problem persists please contact your card issuer or try a different payment method.</td>
+</tr>
+<tr>
+<th>DECLINED_MANDATE_ERROR</th>
+<td>Mandate is failed, cancelled or expired</td>
+</tr>
+<tr>
+<th>DECLINED_DUPLICATE</th>
+<td>Declined, duplicate transaction. Please do not try again as payment has most likely already been collected. Please contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_CV2</th>
+<td>Declined, card security code was incorrect. Please check the last 3 digits on the reverse of card and try again.</td>
+</tr>
+<tr>
+<th>DECLINED_ISSUE</th>
+<td>Invalid issue number. Please check and try again. If the problem persists please contact your card issuer.</td>
+</tr>
+<tr>
+<th>DECLINED_START_DATE</th>
+<td>Declined, start date is in the future. Please enter a start date that is in the past.</td>
+</tr>
+<tr>
+<th>DECLINED_EXPIRY_DATE</th>
+<td>Declined, card expired. Please use a different card or contact your bank.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_AMOUNT</th>
+<td>Declined, invalid amount. Please check the amount and try again. If the problem persists, please contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_EMAIL</th>
+<td>Declined, the email address is mandatory and a valid one was not provided. Please try again and enter your email address.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CARD_TYPE</th>
+<td>Declined, the card you used isn't supported. Please try with a different card or contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_WRONG_CARD_TYPE</th>
+<td>Declined, the card type you specified does not match the card number. Please check the card details entered.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CURRENCY_TYPE</th>
+<td>Declined, the currency you used isn't supported.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CURRENCY_TYPE_ASP</th>
+<td>Declined, no payment service provider has been set up for this currency.</td>
+</tr>
+<tr>
+<th>DECLINED_AMOUNT_TOO_LARGE</th>
+<td>Declined, the amount is too large.</td>
+</tr>
+<tr>
+<th>DECLINED_INSUFFICIENT_FUNDS</th>
+<td>Declined, there are insufficient funds on this account.</td>
+</tr>
+<tr>
+<th>DECLINED_PAYER_DECEASED</th>
+<td>Declined, this account belongs to someone who is deceased.</td>
+</tr>
+<tr>
+<th>DECLINED_GATEWAY_ERROR</th>
+<td>Declined, the gateway encountered an error. Please try again in a few minutes. If the problem persists, please contact the company you are trying to make payment to.</td>
+</tr>
+</table></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/userdocs/docs/authorisations"><span class="arrow-prev">← </span><span>Authorisations</span></a><a class="docs-next button" href="/userdocs/docs/refunds"><span>Refunds</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#collecting-one-off-payments">Collecting one-off payments</a></li><li><a href="#manually-collecting-ad-hoc-payments-against-an-existing-authorisation">Manually collecting ad-hoc payments against an existing authorisation</a></li><li><a href="#automatically-collecting-payments-against-an-existing-authorisation">Automatically collecting payments against an existing authorisation</a></li><li><a href="#required-data">Required data</a></li><li><a href="#statuses">Statuses</a></li><li><a href="#cancellations-refunds-in-salesforce">Cancellations / Refunds in Salesforce</a></li><li><a href="#payment-outcomes">Payment outcomes</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/userdocs/" class="nav-home"></a><div><h5>Docs</h5><a href="/userdocs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/userdocs/docs/en/doc2.html">Guides (or other categories)</a><a href="/userdocs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/userdocs/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/userdocs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/userdocs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright"></section></footer></div></body></html>
