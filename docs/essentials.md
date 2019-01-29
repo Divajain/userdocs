@@ -16,6 +16,9 @@ Asperato is a managed package, and can thus be <a href="https://help.salesforce.
 The Asperato package can be used in both Lightning and Classic mode, the functionality is identical. The only exception is that initial ‘Setup’ needs to be completed in Lightning. The tabs are the same, and the buttons that appear as lightning quick actions in lightning experience will appear as standard Salesforce buttons in Salesforce Classic.
 
 <a target="_blank" href="https://help.salesforce.com/articleView?id=000230642&amp;type=1">Users may switch between either interface without affecting functionality.</a>
+
+### Paths
+If you're using Asperato in Lightning experience, we provide paths on our objects to give you a visual display of the payment or authorisation status. If you wish to use these paths, you'll need to <a href="https://help.salesforce.com/articleView?id=path_enable.htm&type=5" target="_blank">follow the instructions here to enable paths.</a>
  
 ## Installing the package
 The installation file can be downloaded from the Salesforce Appexchange. 
