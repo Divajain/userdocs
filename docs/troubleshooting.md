@@ -18,3 +18,12 @@ This is likely to be one of a few scenarios:
  
 ## The "Getting started" page is blank
 You'll need to enable, and deploy "My Domain" to you users before you can view the "Getting started" page. <a href="https://help.salesforce.com/articleView?id=domain_name_overview.htm&amp;type=5" target="_blank">Please see instructions from Salesforce on how to do this</a>.
+
+## Can't complete setup - an error dialog appears
+If an error dialog appears when you try to setup Asperato, it may be because you didn't allow the remote sites during setup.
+
+To check this, from Setup, enter Remote Site Settings in the Quick Find box, then select Remote Site Settings. This page displays a list of any remote sites already registered and whether they're active. This is what you should see if the remote sites are configured correctly:
+
+![Remote site settings](/userdocs/img/troubleshooting/remote_site.png)
+
+If not, the "Active" checkbox may be unchecked. If that's the case, you'll need to hit the "Edit" link by each remote site to activate it.

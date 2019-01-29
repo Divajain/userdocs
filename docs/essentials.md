@@ -39,7 +39,7 @@ If you've completed the above successfully, you should see something like the fo
 ![Setup successful](/userdocs/img/overview/setup_success.png "Setup successful")
  
 ## Connecting Salesforce to your chosen Payment Service Providers
-On the Asperato Setup page you will see a list of pre-connected payment service providers. These allow you to take immediate test payments. You can connect your own PSP by following the instructions.
+On the Asperato Setup page you will see a list of pre-connected payment service providers. These allow you to take immediate test payments. If you wish to connect your own payment service provider, [please see the instructions here](gatewaykeys).
  
 ## Create your first payment request
 Try out the connection and take a simple, one-off card payment:

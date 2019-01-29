@@ -1,14 +1,51 @@
 ---
 id: gatewaykeys
-title: PSP Keys
-sidebar_label: PSP Keys
+title: Connecting your PSP
+sidebar_label: Connecting your PSP
 ---
+
+Asperato ONE comes pre-configured with several different PSP connections so you can test payments out of the box. However, with this you are limited to the results that you see in Salesforce - you cannot view the payments as they flow through the PSP.
+
+To test thoroughly therefore, you'll need to connect your own PSP account.
+
+## Connecting your own PSP account
+
+To connect your own PSP account, you first need to make sure you're in lightning experience - see here for instructions on how to switch to lightning experience if you're not already using it. (Don't worry, you can switch back to classic if you wish as soon as setup is complete.)
+
+Once you are in lightning experience, navigate to the "Asperato Setup" tab and then follow the instructions below:
+
+1. Click the "Add new connection" button on the "PSP connections" lightning component:
+
+![Add new connection](/userdocs/img/adding_psp/add_new_connection.png)
+
+2. In the dialog that appears, select:
+
+ - The currency this connection will be used for
+ - The mode (such as ECOM, MOTO, direct debit, etc.)
+ - The PSP you wish to connect. *(PSP not in that list? Don't worry, we're always adding more. Email support@asperato.com and we'll see what we can do.)*
+ - An optional description of this PSP connection (such as "Wholefood Tavistock branch".)
+
+3. The dialog will then show you the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the deatils, it should look something like this:
+
+![New connection dialog](/userdocs/img/adding_psp/new_connection_dialog.png)
+
+4. Click the "Create PSP connection" button.
+
+The "PSP connections" component should now be updated with your new gateway connection - if all has worked ok, you'll see a green tick by your newly added connection.
+
+If you instead see a red cross, that means we had an issue trying to connect to your PSP with the details that you provided. If you see this, try entering your details again. If you still can't connect successfully, then email support@asperato.com, let us know the details of the PSP you're trying to connect to, and we'll see what we can do to help.
+
+## Test account details
+
+Note that test account details will vary between payment service providers - they each have their own set of test details, though there are some "common" ones used across providers. Most PSPs have pages online where they supply such test deatils.
+
+## Payment service provider keys
 
 Asperato will require keys to connect to a user's payment service provider.
 
 Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
 
-## Authorize.net
+### Authorize.net
 To connect Authorize.net to Asperato you will need the values for:
 
 - API Login ID
@@ -18,7 +55,7 @@ If you don't know what these values are you can create new ones, but beware that
 
 Go to `Account > Settings > API Credentials & Keys`
 
-## Braintree
+### Braintree
 The information Asperato needs can be obtained from the Braintree Dashboard.
 
 For test/sandbox this is at <a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
@@ -36,7 +73,7 @@ Asperato then needs the values of the fields marked:<br/>
 - Private Key<br/>
 - Merchant ID
 
-## CyberSource
+### CyberSource
 The information that Asperato needs can be obtained from the CyberSource dashboard.
 
 The login page for this is at <a target="_blank" href="https://ebc.cybersource.com/ebc/login/Login.do">https://ebc.cybersource.com/ebc/login/Login.do</a>
@@ -62,10 +99,10 @@ In here you need to add the following IP addresses:
  - For live running - `162.13.56.213`
  - For testing - `77.68.42.36`
 
-## GoCardless
+### GoCardless
 Asperato will redirect you to the GoCardless sign up page to complete your details to obtain a GoCardless account. If you already have a GoCardless Account click the Sign in link at the bottom of the form and enter your details as required. Once complete you will see a message from Asperato confirming the connection.
 
-## Moneris
+### Moneris
 For testing you will need a username, a store ID and an API key.
 
 1. Sign in at https://developer.moneris.com/ with your username and password (or create an account if you don't have one.)
@@ -80,7 +117,7 @@ Once you are logged in there is an Admin menu option and within that a section c
 
 Asperato require the live store ID and the live API key.
 
-## PayPal
+### PayPal
 Asperato will need your Client ID and Secret Key.  You can find these in the PayPal developer dashboard.
 
 Go to <a href="https://developer.paypal.com" target="_blank" title="Link to developer dashboard">https://developer.paypal.com</a> and use your PayPal business credentials to log in.
@@ -92,7 +129,7 @@ Once an App exist you can click on its name in the `REST API apps` section and t
 Although not directly related to keys there are some other considerations for using PayPal as a payment route.  The main issue is that PayPal will not let you run any of their screens in an iframe or overlay, and outside of this the whole process is managed by re-direction.  This means that you will need to use the Asperato PostMessage event `asp--redir` to determine where the redirection should go to when using iframe techniques.  The documentation about the Asperato PostMessage events can be found <a href="https://asperato.github.io/docs/templates/#postmessage-events" target="_blank" >here</a>.<br/>
 The other set-up issue you need to consider is that because the PayPal payment is managed by re-direction you need to set the Cancel, Success and Fail endpoints on the payment record before you launch the Asperato paypage so that you can control what happens when the payment transaction completes.  The description of these fields can be found <a href="https://asperato.github.io/docs/sf/#payment" target="_blank">here</a>.
 
-## Sage Pay
+### Sage Pay
 Asperato will ask you for your Vendor name to connect to Sage Pay. This is the same as your Sage Pay account credentials. If you do not know these, contact your Sage Pay Administrator.
 
 There is an additional configuration task you will need to perform in order to allow Asperato to talk to the Sage Pay gateway (for both the test and live environments) because Sage Pay perform valid IP checks:
@@ -103,7 +140,7 @@ There is an additional configuration task you will need to perform in order to a
 - For testing set the IP address to 077.068.042.036, the Subnet mask to 255.255.255.255 and the Description to Asperato test
 - For live running set the IP address to 162.013.056.213, the Subnet mask to 255.255.255.255 and the Description to Asperato live
 
-## Stripe
+### Stripe
 You will need your API key to connect Stripe to Asperato.
 Your API keys are located in your account settings (there is a menu option on the left called `API`).  The key that we need is called the Secret key and you might need to press a button to reveal the value)
 
@@ -127,7 +164,7 @@ Go to the URL: <a href="https://dashboard.stripe.com/account/integration/setting
 
 Stripe might then ask you to verify you phone number, but once that is complete then you'll be able to process transactions.
 
-## Vanco
+### Vanco
 We need four pieces of information:
  - Username
  - Password
@@ -136,7 +173,7 @@ We need four pieces of information:
  
  This information can be obtained from the setup emails sent by your integrations specialist. If you do not have an integrations specialist or have mislaid the original emails, then you'll need to <a target="_blank" href="http://connect.vancopayments.com/contact-vanco">contact Vanco</a> and ask them for this information.
 
-## Worldpay Online
+### Worldpay Online
 You need to log onto the <a target="_blank" href="https://online.worldpay.com/login">Worldpay Online Dashboard</a>.
 - Ensure you are in TEST mode.
 - On the top right of the screen click on `SETTINGS`.
