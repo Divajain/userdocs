@@ -76,3 +76,111 @@ You’ll then see the refund dialog, where you can either choose to refund a spe
 ![Refund dialog](/userdocs/img/payments/refund_dialog.png)
  
 Note that some payment service providers place restrictions on refunds. If this is the case, you will need to contact your payment service provider and ask them to enable refunds on your account.
+
+## Payment outcomes
+Not all payments will succeed - they may fail for a variety of reasons, such as insufficient funds, a billing address that doesn't match, the card has been blocked, etc. Asperato will sanitise all error responses across payment service providers to one of a set of values. This enables you to easily automate different flows off the back of specific failure reasons, rather than failures in general.
+
+The sanitised responses we currently support are listed here:
+
+<table class="sanitisedResponses">
+<tr>
+<th>NOT_COMPLETED</th>
+<td>The payment gateway authorisation screen was not completed correctly.</td>
+</tr>
+<tr>
+<th>DECLINED</th>
+<td>Transaction declined, a reason was not given. Please try again. If no luck, try a different payment method.</td>
+</tr>
+<tr>
+<th>DECLINED_AUTH_NOT_FOUND</th>
+<td>A repeat payment was attempted using an authorisation, but the gateway did not have a record of this authorisation.</td>
+</tr>
+<tr>
+<th>DECLINED_NAME</th>
+<td>Transaction declined, a valid name was not provided.</td>
+</tr>
+<tr>
+<th>DECLINED_FRAUD</th>
+<td>Transaction declined. A reason was not given.</td>
+</tr>
+<tr>
+<th>DECLINED_AVS</th>
+<td>Declined, billing address does not match the address held by the bank. Please check the address entered.</td>
+</tr>
+<tr>
+<th>DECLINED_AVS_MISSING_INFO</th>
+<td>Declined, required billing information not specified. Please check you have completed all required fields.</td>
+</tr>
+<tr>
+<th>DECLINED_ABA</th>
+<td>Declined, routing number was incorrect</td>
+</tr>
+<tr>
+<th>DECLINED_CARD_DETAILS</th>
+<td>Declined, card details were incorrect. Please check the card details entered. If the problem persists please contact your card issuer or try a different payment method.</td>
+</tr>
+<tr>
+<th>DECLINED_MANDATE_ERROR</th>
+<td>Mandate is failed, cancelled or expired</td>
+</tr>
+<tr>
+<th>DECLINED_DUPLICATE</th>
+<td>Declined, duplicate transaction. Please do not try again as payment has most likely already been collected. Please contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_CV2</th>
+<td>Declined, card security code was incorrect. Please check the last 3 digits on the reverse of card and try again.</td>
+</tr>
+<tr>
+<th>DECLINED_ISSUE</th>
+<td>Invalid issue number. Please check and try again. If the problem persists please contact your card issuer.</td>
+</tr>
+<tr>
+<th>DECLINED_START_DATE</th>
+<td>Declined, start date is in the future. Please enter a start date that is in the past.</td>
+</tr>
+<tr>
+<th>DECLINED_EXPIRY_DATE</th>
+<td>Declined, card expired. Please use a different card or contact your bank.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_AMOUNT</th>
+<td>Declined, invalid amount. Please check the amount and try again. If the problem persists, please contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_EMAIL</th>
+<td>Declined, the email address is mandatory and a valid one was not provided. Please try again and enter your email address.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CARD_TYPE</th>
+<td>Declined, the card you used isn't supported. Please try with a different card or contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
+<th>DECLINED_WRONG_CARD_TYPE</th>
+<td>Declined, the card type you specified does not match the card number. Please check the card details entered.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CURRENCY_TYPE</th>
+<td>Declined, the currency you used isn't supported.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CURRENCY_TYPE_ASP</th>
+<td>Declined, no payment service provider has been set up for this currency.</td>
+</tr>
+<tr>
+<th>DECLINED_AMOUNT_TOO_LARGE</th>
+<td>Declined, the amount is too large.</td>
+</tr>
+<tr>
+<th>DECLINED_INSUFFICIENT_FUNDS</th>
+<td>Declined, there are insufficient funds on this account.</td>
+</tr>
+<tr>
+<th>DECLINED_PAYER_DECEASED</th>
+<td>Declined, this account belongs to someone who is deceased.</td>
+</tr>
+<tr>
+<th>DECLINED_GATEWAY_ERROR</th>
+<td>Declined, the gateway encountered an error. Please try again in a few minutes. If the problem persists, please contact the company you are trying to make payment to.</td>
+</tr>
+</table>
