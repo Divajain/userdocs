@@ -4,7 +4,7 @@ title: Troubleshooting
 sidebar_label: Troubleshooting
 ---
 
-We only support the latest version of Asperato ONE. New packages, containing new bugfixes, are constantly being released. If you are having issues, as the first port of call please check if you are using the latest package version and upgrade if necessary:
+Please ensure you are running the latest version of Asperato ONE. New packages, containing new bugfixes, are constantly being released. If you are having issues, as the first port of call please check if you are using the latest package version and upgrade if necessary:
 
 <a target="_blank" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ</a>
 
