@@ -60,7 +60,7 @@ Try out the connection and take a simple, one-off card payment:
 Refresh the Salesforce payment record once complete to see the payment record completed. Congratulations - you've taken your first test payment!
 
 ## User permissions
-You probably won't want all your Salesforce users to have permission to take payments. Asperato ONE ships with 3 permission sets that you can apply to relevant users in your org:
+You probably won't want all your Salesforce users to have permission to take payments. Asperato ONE ships with 3 <a href="https://help.salesforce.com/articleView?id=perm_sets_overview.htm&type=5" target="_blank">permission sets</a> that you can apply to relevant users in your org:
 
  - **Asperato standard user** - A user with this permission can setup payments, authorisations and payment schedules.
  - **Asperato refund user** - In addition to the above, this permission allows a user to issue refunds.
