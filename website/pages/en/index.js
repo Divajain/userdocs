@@ -69,7 +69,7 @@ class HomeSplash extends React.Component {
             We support multiple payment methods (such as card, direct debit, eCheck, Paypal, etc.) and any payment processor, so long as they have a compatible API.
           </p>
           <p className="paraText">
-            The documentation here will walk you through installing, setting up, using and customising the package. If you have any questions not covered here, please email support@asperato.com and we'll do our best to help.
+            The documentation here will walk you through installing, setting up, using and customising the package. If you have any questions not covered here, please email <a href="mailto:support@asperato.com">support@asperato.com</a> and we'll do our best to help.
           </p>
           <PromoSection>
             <Button href={docUrl('setup.html')}>Read the docs</Button>
