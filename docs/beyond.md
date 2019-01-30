@@ -16,3 +16,9 @@ Salesforce provide details of this process <a href="https://help.salesforce.com/
  
 ## Automation in Salesforce
 Automation is a big topic, and not one that can be covered in any great level of detail within this documentation. If you are not comfortable with the automation features Salesforce provides (such as Visual Workflows and Process builder) then we recommend you obtain assistance from a certified Salesforce consultant.
+
+If you want to start learning about automation within Salesforce, Salesforce provide various Trailhead modules where you can get started:
+
+<a href="https://trailhead.salesforce.com/content/learn/modules/business_process_automation" target="_blank">Lightning flows</a>
+<a href="https://trailhead.salesforce.com/en/content/learn/projects/quickstart-process-builder" target="_blank">Process builder</a>
+<a href="https://trailhead.salesforce.com/content/learn/modules/apex_triggers" target="_blank">Apex triggers</a>
