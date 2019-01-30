@@ -1,6 +1,19 @@
 {
   "docs": {
-    "The Basics": ["setup", "authorisations", "payments", "refunds", "schedules", "troubleshooting", "contact"],
-	"In depth": ["connectingpsp", "paypage", "beyond"]
+    "The Basics": [
+      "overview",
+      "setup",
+      "authorisations",
+      "payments",
+      "refunds",
+      "schedules",
+      "troubleshooting",
+      "contact"
+    ],
+    "In depth": [
+      "connectingpsp",
+      "paypage",
+      "beyond"
+    ]
   }
 }
