@@ -51,7 +51,7 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Payments</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="collecting-one-off-payments"></a><a href="#collecting-one-off-payments" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Collecting one-off payments</h2>
-<p>For simple one-off payments without an authorisation (that require payment details to be entered), simply create a payment object with the required amount, and select the payment route options you wish to allow on the payment page.</p>
+<p>For simple one-off payments without an authorisation (that require payment details to be entered), simply create a payment record with the required amount, and select the payment route options you wish to allow on the payment page.</p>
 <p>You can then access the payment page via one of two ways:</p>
 <ul>
 <li>If the customer is providing you with payment details as you are in the org (such as over the phone), then hit the “Process payment” button on the top-right of the screen, then enter the required details into the form.</li>
@@ -69,14 +69,14 @@
 <li><p>Navigate to the payment record, then hit the Process payment button.</p></li>
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="automatically-collecting-payments-against-an-existing-authorisation"></a><a href="#automatically-collecting-payments-against-an-existing-authorisation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automatically collecting payments against an existing authorisation</h2>
-<p>Payments can be automatically collected against an existing authorisation by creating a payment object where the following conditions are true:</p>
+<p>Payments can be automatically collected against an existing authorisation by creating a payment record where the following conditions are true:</p>
 <ul>
 <li>The payment record is set to “Awaiting submission”</li>
 <li>The payment record is attached to an authorisation</li>
 <li>The attached authorisation's status is “In force”</li>
 </ul>
 <p>An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.</p>
-<p>This payment object can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.</p>
+<p>This payment record can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.</p>
 <h2><a class="anchor" aria-hidden="true" id="required-data"></a><a href="#required-data" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Required data</h2>
 <p>The required fields for a payment are:</p>
 <ul>
