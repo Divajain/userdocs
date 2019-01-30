@@ -94,7 +94,7 @@
 <h2><a class="anchor" aria-hidden="true" id="using-the-template-as-an-overlay"></a><a href="#using-the-template-as-an-overlay" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the template as an overlay</h2>
 <p>The simplest way of using the template is as an overlay - this can be achieved by inserting minimal Javascript into an existing web page.</p>
 <p>Please note that this overlay library is intended to be used as a simple mechanism to show a payment page overlay that then returns back to the place it started from.  If you want to do anything more sophisticated then you should look at the source of the library and create your own version of it.</p>
-<p>The parameters that are used for setting up the overlay are equivalent to the parameters specified in the &quot;eCommerce URL&quot; (which can be found on any payment record, or in the case of the NPSP extension, on the campaign record):</p>
+<p>The parameters that are used for setting up the overlay are equivalent to the parameters specified in the &quot;eCommerce URL&quot; (which can be found on any payment record):</p>
 <ul>
 <li>The &quot;pid&quot; parameter on the URL is the &quot;paymentRef&quot; parameter on the overlay;</li>
 <li>The &quot;pmRef&quot; parameter on the URL is the &quot;customerRef&quot; parameter on the overlay.</li>
@@ -126,13 +126,6 @@
 );
 </code></pre>
 <p>The above example will show the form for a particular payment reference in Salesforce, and will be pre-populated with the relevant details (amount, frequency, and so on.)</p>
-<p>If using the NPSP extension with Asperato, a campaign reference can also be supplied in the same way:</p>
-<pre><code class="hljs css language-javascript">form.showForm(
-    {
-        <span class="hljs-attr">campaignRef</span>: <span class="hljs-string">"7020Y000012RFJQ"</span>
-    }
-);
-</code></pre>
 <p>You may also set the default payment type shown on the payment page:</p>
 <pre><code class="hljs css language-javascript">form.showForm(
     {
@@ -141,87 +134,6 @@
     }
 );
 </code></pre>
-<p>The above will allow the user to select the frequency, amount, and billing address - if necessary these details may be pre-populated as in the following example:</p>
-<pre><code class="hljs css language-javascript">form.showForm(
-    {
-        <span class="hljs-attr">campaignRef</span>: <span class="hljs-string">"7020Y000012RFJQ"</span>,
-        <span class="hljs-attr">amount</span>: <span class="hljs-number">50.58</span>,
-        <span class="hljs-attr">frequency</span>: <span class="hljs-string">"Annual"</span>,
-        <span class="hljs-attr">firstName</span>: <span class="hljs-string">"Frank"</span>,
-        <span class="hljs-attr">lastName</span>: <span class="hljs-string">"Tomlin"</span>,
-        <span class="hljs-attr">email</span>: <span class="hljs-string">"frank.tomlin@asperato.com"</span>,
-        <span class="hljs-attr">address1</span>: <span class="hljs-string">"94 Milky Way"</span>,
-        <span class="hljs-attr">address2</span>: <span class="hljs-string">"Mars Court"</span>,
-        <span class="hljs-attr">city</span>: <span class="hljs-string">"Winchester"</span>,
-        <span class="hljs-attr">county</span>: <span class="hljs-string">"Wessex"</span>,
-        <span class="hljs-attr">country</span>: <span class="hljs-string">"GB"</span>,
-        <span class="hljs-attr">postcode</span>: <span class="hljs-string">"WE1 3QX"</span>
-    }
-);
-</code></pre>
-<p>This is the full list of showForm parameters that are supported by the sample Asperato overlay library:</p>
-<table>
-  <tr>
-    <th>Parameter name</th>
-    <th>Usage</th>
-  </tr>
-  <tr>
-   <td>address1</td>
-   <td>First line of the billing address</td>
-  </tr>
-  <tr>
-   <td>address2</td>
-   <td>Second line of the billing address</td>
-  </tr>
-  <tr>
-   <td>amount</td>
-   <td>The payment amount (can be either an integer or a decimal)</td>
-  </tr>
-  <tr>
-   <td>city</td>
-   <td>The city value in the billing address</td>
-  </tr>
-  <tr>
-   <td>country</td>
-   <td>The country of the billing address</td>
-  </tr>
-  <tr>
-   <td>county</td>
-   <td>The county or state of the billing address</td>
-  </tr>
-  <tr>
-   <td>currency</td>
-   <td>An ISO 4217 currency code</td>
-  </tr>
-  <tr>
-   <td>defaultPayType</td>
-   <td>Where several payment routes are allowed this will set the default condition. When used must be one of: card, dd, paypal or echeck</td>
-  </tr>
-  <tr>
-   <td>email</td>
-   <td>The email address</td>
-  </tr>
-  <tr>
-   <td>firstName</td>
-   <td>The first name in the billing name details</td>
-  </tr>
-  <tr>
-   <td>frequency</td>
-   <td>The payment frequency allowed.  Can be one of Annual, Monthly, Quarterly or Single</td>
-  </tr>
-  <tr>
-   <td>lastName</td>
-   <td>The last name in the billing name details</td>
-  </tr>
-  <tr>
-   <td>paymentRef</td>
-   <td>The Salesforce ID of a Payment record and is the pid parameter of the URL shown in the "eCommerce URL" field</td>
-  </tr>
-  <tr>
-   <td>postcode</td>
-   <td>The postcode or zip code of the billing address</td>
-  </tr>
-</table>
 <h3><a class="anchor" aria-hidden="true" id="warnings-errors"></a><a href="#warnings-errors" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Warnings &amp; Errors</h3>
 <p>If you run into problems then we would advise keeping an eye on your browser's console - many common issues (unknown fields, required fields not specified, field vales in the wrong format, etc.) are printed there as warnings or errors.</p>
 <h2><a class="anchor" aria-hidden="true" id="using-the-template-in-an-iframe"></a><a href="#using-the-template-in-an-iframe" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the template in an iframe</h2>
