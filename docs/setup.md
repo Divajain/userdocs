@@ -21,8 +21,7 @@ The Asperato package can be used in both Lightning and Classic mode, the functio
 If you're using Asperato in Lightning experience, we provide paths on our objects to give you a visual display of the payment or authorisation status. If you wish to use these paths, you'll need to <a href="https://help.salesforce.com/articleView?id=path_enable.htm&type=5" target="_blank">follow the instructions here to enable paths.</a>
  
 ## Installing the package
-The installation file can be downloaded from the Salesforce Appexchange. 
-Then simply head to the ‘Asperato Setup’ tab and follow the on-screen instructions to complete the installation. 
+Asperato ONE is installed <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ" target="_blank">from the Salesforce Appexchange.</a> After installation, head to the "Asperato Setup" tab and follow the on-screen instructions to complete the installation. 
  
 Please note you must be in Lightning to complete this setup and have <a href="https://help.salesforce.com/articleView?id=domain_name_overview.htm&r=https%3A%2F%2Fwww.google.com%2F&amp;type=5" target="_blank">My Domain</a> configured.  
  
