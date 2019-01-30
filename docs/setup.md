@@ -31,7 +31,7 @@ Asperato is a Connected App. To securely connect Salesforce to Asperato:
  - Ensure you are in lightning experience, not classic
  - Navigate to the Asperato ONE app
  - Click on the "Getting Started tab"
- - Click the button to connect Salesforce for Asperato.
+ - Click the "Setup configuration" button
 
 If you've completed the above successfully, you should see something like the following:
 
