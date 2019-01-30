@@ -1,5 +1,5 @@
 ---
-id: gatewaykeys
+id: connectingpsp
 title: Connecting your PSP
 sidebar_label: Connecting your PSP
 ---
