@@ -5,7 +5,7 @@ sidebar_label: Payments
 ---
 
 ## Collecting one-off payments
-For simple one-off payments without an authorisation (that require payment details to be entered), simply create a payment object with the required amount, and select the payment route options you wish to allow on the payment page.
+For simple one-off payments without an authorisation (that require payment details to be entered), simply create a payment record with the required amount, and select the payment route options you wish to allow on the payment page.
  
 You can then access the payment page via one of two ways:
  
@@ -28,14 +28,14 @@ Note that the authorisation field will be pre-populated with the required author
  
 ## Automatically collecting payments against an existing authorisation
  
-Payments can be automatically collected against an existing authorisation by creating a payment object where the following conditions are true:
+Payments can be automatically collected against an existing authorisation by creating a payment record where the following conditions are true:
  - The payment record is set to “Awaiting submission”
  - The payment record is attached to an authorisation
  - The attached authorisation's status is “In force”
  
 An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.
  
-This payment object can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.
+This payment record can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.
  
 ## Required data
  
