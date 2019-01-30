@@ -57,7 +57,7 @@ The simplest way of using the template is as an overlay - this can be achieved b
 
 Please note that this overlay library is intended to be used as a simple mechanism to show a payment page overlay that then returns back to the place it started from.  If you want to do anything more sophisticated then you should look at the source of the library and create your own version of it.
 
-The parameters that are used for setting up the overlay are equivalent to the parameters specified in the "eCommerce URL" (which can be found on any payment record, or in the case of the NPSP extension, on the campaign record):
+The parameters that are used for setting up the overlay are equivalent to the parameters specified in the "eCommerce URL" (which can be found on any payment record):
 
  - The "pid" parameter on the URL is the "paymentRef" parameter on the overlay;
  - The "pmRef" parameter on the URL is the "customerRef" parameter on the overlay.
@@ -96,16 +96,6 @@ form.showForm(
 
 The above example will show the form for a particular payment reference in Salesforce, and will be pre-populated with the relevant details (amount, frequency, and so on.)
 
-If using the NPSP extension with Asperato, a campaign reference can also be supplied in the same way:
-
-```javascript
-form.showForm(
-    {
-        campaignRef: "7020Y000012RFJQ"
-    }
-);
-```
-
 You may also set the default payment type shown on the payment page:
 
 ```javascript
@@ -116,91 +106,6 @@ form.showForm(
     }
 );
 ```
-
-The above will allow the user to select the frequency, amount, and billing address - if necessary these details may be pre-populated as in the following example:
-
-```javascript
-form.showForm(
-	{
-		campaignRef: "7020Y000012RFJQ",
-		amount: 50.58,
-		frequency: "Annual",
-		firstName: "Frank",
-		lastName: "Tomlin",
-		email: "frank.tomlin@asperato.com",
-		address1: "94 Milky Way",
-		address2: "Mars Court",
-		city: "Winchester",
-		county: "Wessex",
-		country: "GB",
-		postcode: "WE1 3QX"
-	}
-);
-```
-
-This is the full list of showForm parameters that are supported by the sample Asperato overlay library:
-<table>
-  <tr>
-    <th>Parameter name</th>
-    <th>Usage</th>
-  </tr>
-  <tr>
-   <td>address1</td>
-   <td>First line of the billing address</td>
-  </tr>
-  <tr>
-   <td>address2</td>
-   <td>Second line of the billing address</td>
-  </tr>
-  <tr>
-   <td>amount</td>
-   <td>The payment amount (can be either an integer or a decimal)</td>
-  </tr>
-  <tr>
-   <td>city</td>
-   <td>The city value in the billing address</td>
-  </tr>
-  <tr>
-   <td>country</td>
-   <td>The country of the billing address</td>
-  </tr>
-  <tr>
-   <td>county</td>
-   <td>The county or state of the billing address</td>
-  </tr>
-  <tr>
-   <td>currency</td>
-   <td>An ISO 4217 currency code</td>
-  </tr>
-  <tr>
-   <td>defaultPayType</td>
-   <td>Where several payment routes are allowed this will set the default condition. When used must be one of: card, dd, paypal or echeck</td>
-  </tr>
-  <tr>
-   <td>email</td>
-   <td>The email address</td>
-  </tr>
-  <tr>
-   <td>firstName</td>
-   <td>The first name in the billing name details</td>
-  </tr>
-  <tr>
-   <td>frequency</td>
-   <td>The payment frequency allowed.  Can be one of Annual, Monthly, Quarterly or Single</td>
-  </tr>
-  <tr>
-   <td>lastName</td>
-   <td>The last name in the billing name details</td>
-  </tr>
-  <tr>
-   <td>paymentRef</td>
-   <td>The Salesforce ID of a Payment record and is the pid parameter of the URL shown in the "eCommerce URL" field</td>
-  </tr>
-  <tr>
-   <td>postcode</td>
-   <td>The postcode or zip code of the billing address</td>
-  </tr>
-</table>
 
 ### Warnings & Errors
 If you run into problems then we would advise keeping an eye on your browser's console - many common issues (unknown fields, required fields not specified, field vales in the wrong format, etc.) are printed there as warnings or errors.
