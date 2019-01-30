@@ -25,7 +25,9 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [],
+  headerLinks: [
+    { external: true, href: "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ", label: "Download from AppExchange" },
+  ],
   
   disableHeaderTitle: true,
 
