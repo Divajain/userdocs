@@ -41,6 +41,8 @@ If you've completed the above successfully, you should see something like the fo
 On the Asperato Setup page you will see a list of pre-connected payment service providers. These allow you to take immediate test payments. If you wish to connect your own payment service provider, [please see the instructions here](connectingpsp).
  
 ## Create your first payment request
+*We're assuming you're connected to Stripe as a test gateway, which is the default on installing the package. If you've connected to another gateway instead, please see their documentation for appropriate test card details.*
+
 Try out the connection and take a simple, one-off card payment:
 
 - Navigate to the "Payments" tab
