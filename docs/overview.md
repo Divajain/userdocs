@@ -14,7 +14,7 @@ The solution is used by a variety of business models including: franchises (mult
 
 ## Installing & setting up Asperato
 
-1. <a target="_blank" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">Install the package from the AppExchange here.</a>
+1. <a target="_blank" style="text-decoration: underline; font-weight: bold;" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">Install the package from the AppExchange here.</a>
 2. Ensure you're in <a target="_blank" href="https://help.salesforce.com/articleView?id=lex_enable_turn_on.htm&type=5">lightning experience</a> and you have <a href="https://help.salesforce.com/articleView?id=domain_name_overview.htm&type=5" target="_blank">My Domain setup and deployed.</a> (Asperato ONE can be used in classic, but has to be setup in lightning experience.)
 3. Navigate to the "Asperato Setup" page on the Asperato ONE app.
 4. Click the "Connect Salesforce to Asperato" button.
