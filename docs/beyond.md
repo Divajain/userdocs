@@ -19,6 +19,6 @@ Automation is a big topic, and not one that can be covered in any great level of
 
 If you want to start learning about automation within Salesforce, Salesforce provide various Trailhead modules where you can get started:
 
-<a href="https://trailhead.salesforce.com/content/learn/modules/business_process_automation" target="_blank">Lightning flows</a>
-<a href="https://trailhead.salesforce.com/en/content/learn/projects/quickstart-process-builder" target="_blank">Process builder</a>
-<a href="https://trailhead.salesforce.com/content/learn/modules/apex_triggers" target="_blank">Apex triggers</a>
+<a href="https://trailhead.salesforce.com/content/learn/modules/business_process_automation" target="_blank">Lightning flows</a><br>
+<a href="https://trailhead.salesforce.com/en/content/learn/projects/quickstart-process-builder" target="_blank">Process builder</a><br>
+<a href="https://trailhead.salesforce.com/content/learn/modules/apex_triggers" target="_blank">Apex triggers</a><br>
