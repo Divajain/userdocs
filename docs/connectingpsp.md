@@ -110,11 +110,11 @@ The Asperato connection requires four bits of information:
 - API Access ID
 - API Secure Key
 
-On the left of the dashboard is a menu. Select the Developer option and within that API Credentials.  You will need to add a new set of API keys by pressing the Create button and giving them a name.  That will then show a screen containing an API Access ID and an API Secure Key.  You need to make copies of these while this screen is displayed because the API Secure Key will not be visible again at any time.
+On the left of the dashboard is a menu. Select the `Developer` option and within that `API Credentials`.  You will need to add a new set of API keys by pressing the `Create` button and giving them a name.  That will then show a screen containing an API Access ID and an API Secure Key.  You need to make copies of these while this screen is displayed because the API Secure Key will not be visible again at any time.
 
 The Organisation ID is the number displayed under the company name on the top left of the desktop itself.
 
-The Location ID is the number displayed under the location name when you select the Locations option on the left-hand menu.
+The Location ID is the number displayed under the location name when you select the `Locations` option on the left-hand menu.
 
 ### GoCardless
 Asperato will redirect you to the GoCardless sign up page to complete your details to obtain a GoCardless account. If you already have a GoCardless Account click the Sign in link at the bottom of the form and enter your details as required. Once complete you will see a message from Asperato confirming the connection.
