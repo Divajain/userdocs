@@ -36,6 +36,12 @@ Payments can be automatically collected against an existing authorisation by cre
 An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.
  
 This payment record can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.
+
+## Expiring a payment link
+
+You may wish to expire the payment link so it can no longer be used to collect funds. To do this, simply set the "Payment stage" field to "Expired":
+
+![Expired status](/userdocs/img/payments/expired.png)
  
 ## Required data
  
