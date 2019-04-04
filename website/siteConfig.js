@@ -16,6 +16,11 @@ const siteConfig = {
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
+  
+  algolia: {
+    apiKey: 'a54acc865f53354c0ae0efb46f3bdaea',
+    indexName: 'asperato'
+  },
 
   // Used for publishing and more
   projectName: 'userdocs',
