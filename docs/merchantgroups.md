@@ -42,7 +42,7 @@ Assigning a merchant group to a payment or authorisation is just a case of popul
 
 ![New payment](/userdocs/img/merchant_group/newpayment.png)
 
-...just fill in the "Merchant group" field that appears to the right hand side of the "Amount" field. When populating the Merchant group field via an API call, or via Apex, the field name needed is "asp04_Merchant_group__c". When the payment or authoristaion is then processed, it will be processed using the PSP connections specified in that merchant group.
+...just fill in the "Merchant group" field that appears to the right hand side of the "Amount" field. When populating the Merchant group field via an API call, or via Apex, the field name needed is "asp04__Merchant_group__c". When the payment or authoristaion is then processed, it will be processed using the PSP connections specified in that merchant group.
 
 If the "merchant group" field is left blank then the "Default" merchant group will be assigned and used instead to ensure backwards compatibility.
 
