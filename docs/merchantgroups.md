@@ -7,7 +7,7 @@ sidebar_label: Merchant Groups
 **Note: This feature will be available from version 2.12 of Asperato ONE.**
 
 ## Introduction
-Before the introduction of merchant groups, Asperato ONE allowed you to connect any PSP for a given currency and payment route. For example, you may have had a Stripe account for GBP & EUR card payments, a GoCardless account for GBP and EUR direct debit, and a Cybersource account for USD card payments. However, if you needed to connect a second PSP to use for a subest of (for example) GBP card payments, then this wasn't possible without manual customisation.
+Before the introduction of merchant groups, Asperato ONE allowed you to connect any PSP for a given currency and payment route. For example, you may have had a Stripe account for GBP and EUR card payments, a GoCardless account for GBP and EUR direct debit payments, and a Cybersource account for USD card payments. However, if you needed to connect a second PSP to use for a subest of (for example) GBP card payments, then this wasn't possible without manual customisation.
 
 Merchant groups enable you to set up different groups of PSP connections, and then assign those groups to different payments and authorisations.
 
@@ -53,4 +53,4 @@ For a merchant group to be assigned to a repeat payment (a payment attached to a
 There is no need to assign a merchant group to a payment schedule directly - the merchant group used will be the one that is set on the authoristaion object attached to the payment schedule.
 
 ## Renaming merchant groups
-Merchant groups deliberately cannot be renamed, as this would break any automation in place that relied on the merchant group's name. If the group has to be renamed, it should be first deleted, then a new one created with the correct name, then the PSP connections re-established against the new group.
+Merchant groups deliberately *cannot* be renamed, as this would break any automation in place that relied on the merchant group's name. If the group has to be renamed, it should be first deleted, then a new one created with the correct name, then the PSP connections re-established against the new group.
