@@ -41,7 +41,7 @@ Minor stylistic changes, such as the fonts, colours and logo used can be made by
 - Changing page font
 - Changing button colours (text and background in both normal and hover mode, and border)
 - Changing link colour
-- Changing the logo (ideal size is 400px wide and 80px high, though the height is the key factor.  Any bigger and you risk truncation)
+- Changing the logo (ideal size is 400px wide and 80px high, though the height is the key factor.  Any bigger and you risk truncation). We can also remove the logo completely if required.
 - Changing the page title
 - Hide / show "pay as company" link
 - Hide / show postcode lookup
@@ -49,7 +49,7 @@ Minor stylistic changes, such as the fonts, colours and logo used can be made by
 - Switch between IBAN and local details for Direct Debits
 - Change the 'processing' gif from the default gears
 
-If you would like any customised changes in this regard, contact support@asperato.com with details of the changes required.
+If you would like any customised changes in this regard, contact support@asperato.com with details of the changes required since we will have to apply these customisations for you.
 
 ## Using the template as an overlay
 
