@@ -4,17 +4,20 @@ title: Merchant Groups
 sidebar_label: Merchant Groups
 ---
 
-**Note: This feature will be available from version 2.12 of Asperato ONE.**
+**Note: This feature will be available from version 2.12 of Asperato ONE. An Asperato Multi-Merchant License is required to enable this feature.**
 
 ## Introduction
-Before the introduction of merchant groups, Asperato ONE allowed you to connect any PSP for a given currency and payment route. For example, you may have had a Stripe account for GBP and EUR card payments, a GoCardless account for GBP and EUR direct debit payments, and a Cybersource account for USD card payments. However, if you needed to connect a second PSP to use for a subest of (for example) GBP card payments, then this wasn't possible without manual customisation.
+The Asperato ONE PRO license allows for up to 5 connected Payment Service Providers (PSPs) settling into separate bank accounts of different currencies. If you require to settle into multiple bank accounts of the same currency you will need our Multi-Merchant License. For example, you may have a Stripe account for GBP and EUR card payments, a GoCardless account for GBP and EUR direct debit payments and a Cybersource account for USD card payments. However, if you need to connect a second Stripe account to use for a subset of GBP card payments, then an Asperato Multi-Merchant License is required. The Merchant Groups feature is used to manage this requirement. 
+Before the introduction of Merchant Groups, Asperato customers were unable to set-up their multi-merchant license requirements themselves, instead the Asperato support team carried this out on their behalf. 
 
-Merchant groups enable you to set up different groups of PSP connections, and then assign those groups to different payments and authorisations.
+Merchant Groups enable you to set up different groups of PSP connections, and then assign those groups to different payments and authorisations.
 
-Merchant groups can be created and used in both lightning and classic. The screenshots here show the process in lightning experience, however it is near identical in classic. If you're struggling, just drop us a line at support@asperato.com and we'll do our best to help out.
+Merchant Groups can be created and used in both lightning and classic. The screenshots here show the process in lightning experience, however it is near identical in classic. If you're struggling, just drop us a line at support@asperato.com and we'll do our best to help out.
 
 ## In what situation would I want to use merchant groups?
-You can use them however you wish. We find the most common use case is with different legal entities - a franchise for example may have a single Salesforce org managing a few hundred stores across a region, and each of those stores would have their own merchant accounts. The merchant group functionality facilitates this use case by allowing a new merchant group to be set up per store.
+You can use them however you wish. We find the most common use case is with different legal entities - a franchise for example may have a single Salesforce org managing a few hundred stores across a region, and each of those stores would have their own merchant PSP accounts. The merchant group functionality facilitates this use case by allowing a new merchant group to be set up per store.
+
+Another use case could be when a merchant has a requirement to settle funds into separate bank accounts each with the same PSP and currency for regulatory reasons, for example paying household rent and deposit payments into separate bank accounts. 
 
 ## Do I have to use merchant groups?
 No. If, for any given currency and payment route, you only need a single PSP connected, then you can carry on using the package exactly as before, with no changes. The new merchant group functionality is backwards compatible. If you don't need to use it, your existing PSP connections, payments and authorisations will all be created and processed as before against a predefined "Default" merchant group.
