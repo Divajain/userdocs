@@ -190,3 +190,8 @@ The sanitised responses we currently support are listed here:
 <td>Declined, the gateway encountered an error. Please try again in a few minutes. If the problem persists, please contact the company you are trying to make payment to.</td>
 </tr>
 </table>
+
+## Post transaction endpoints
+After a user has loaded the paypage, they may exit the payment page in three different scenarios - having successfully completed the transaction, having unsuccessfully completed the transaction, and having cancelled (not attempted) the transaction. Asperato can send the user to different URLs for each of these three separate scenarios.
+
+These URLs can be set by changing the value of fields on the payment object - these fields are are `Success_Endpoint`, `Fail_endpoint`, and `Cancel_endpoint`, and control the URL where a user will be sent in these three scenarios.
