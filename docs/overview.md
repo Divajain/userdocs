@@ -118,3 +118,6 @@ Payment Schedule contains the information needed to drive the creation of paymen
 Their only function is to create Payment records, linked to Authorisations (Saved Payment methods) on a fixed schedule so that these payments can be collected automatically.
 
 Most of our customers use their own objects (such as invoices or orders) to drive the automatic creation of payment records rather than using payment schedules.
+
+## Sandboxes
+If cloning your org into a sandbox, you *must* make sure that any configuration data in the "Asperato ONE" custom settings object is *not* copied to the sandbox, and a separate configuration is set up on our staging server instead. If you need help with this, or want us to confirm your sandbox is not pointing at your live org, please email support@asperato.com with details.
