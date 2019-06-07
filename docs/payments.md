@@ -37,6 +37,19 @@ An overnight batch job will run and attempt to collect any payments that fulfil 
  
 This payment record can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.
 
+## Collecting a payment and an authorisation simultaneously
+
+Many business cases require collecting an initial payment from a customer, and simultaneously collecting an authoristaion so future payments can be collected seamlessly.
+
+To do this:
+
+ - Create a new payment record with the amount of the initial payment
+ - Create a new authorisation record
+ - Set the "Authorisation" field on the payment record to the authorisation created in the previous step
+ - Hit the "Process payment" button to process the payment and authorisation from within Salesforce, or distribute the link contained in the "Ecommerce URL" to the customer for processing.
+ 
+When the payment page has been filled in and processed, both the payment and authorisation record will be populated with the result of the transaction. The authorisation record can then be used to process any future payments as and when required.
+
 ## Expiring a payment link
 
 You may wish to expire the payment link so it can no longer be used to collect funds. To do this, simply set the "Payment stage" field to "Expired":
