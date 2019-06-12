@@ -25,7 +25,7 @@ Once you are in lightning experience, navigate to the "Asperato Setup" tab and t
  - The PSP you wish to connect. *(PSP not in that list? Don't worry, we're always adding more. Email support@asperato.com and we'll see what we can do.)*
  - An optional description of this PSP connection (such as "Wholefood Tavistock branch".)
 
-3. The dialog will then show you the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the deatils, it should look something like this:
+3. The dialog will then show you the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the details, it should look something like this:
 
 ![New connection dialog](/userdocs/img/adding_psp/new_connection_dialog.png)
 
