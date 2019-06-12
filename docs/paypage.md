@@ -46,8 +46,9 @@ Minor stylistic changes, such as the fonts, colours and logo used can be made by
 - Hide / show "pay as company" link
 - Hide / show postcode lookup
 - Hide / show billing address
-- Switch between IBAN and local details for Direct Debits
-- Change the 'processing' gif from the default gears
+- Switching between IBAN and local details for Direct Debits
+- Changing the 'processing' gif from the default gears
+- Changing the favicon (the icon that appears in the browser's tab for the website.)
 
 If you would like any customised changes in this regard, contact support@asperato.com with details of the changes required since we will have to apply these customisations for you.
 
