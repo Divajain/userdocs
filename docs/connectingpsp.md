@@ -45,6 +45,14 @@ Asperato will require keys to connect to a user's payment service provider.
 
 Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
 
+### Adyen
+To connect Adyen to Asperato you will need:
+
+- Merchant account
+- API Key
+
+The Merchant account dictates the name of the Adyen account you wish Asperato to connect to; it is not a piece of authentication data. You can view instructions for obtaining your API key <a href="https://docs.adyen.com/user-management/how-to-get-the-api-key/">here</a>.
+
 ### Authorize.net
 To connect Authorize.net to Asperato you will need the values for:
 
