@@ -87,7 +87,7 @@ There is a single piece of information for the configuration, the "Secret key".
 
 For test/sandbox this is:
 <a target="_blank" href="https://sandbox.checkout.com/login">https://sandbox.checkout.com/login</a>
-
+<br/>
 For live:
 <a target="_blank" href="https://.checkout.com/login">https://hub.checkout.com/login</a>
 https://hub.checkout.com/login
