@@ -66,7 +66,7 @@ Go to `Account > Settings > API Credentials & Keys`
 ### Braintree
 The information Asperato needs can be obtained from the Braintree Dashboard.
 
-For test/sandbox this is at <a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
+For test/sandbox this is at hub<a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
 
 For live/production this is at <a target="_blank" href="https://www.braintreegateway.com/login">https://www.braintreegateway.com/login</a>
 
@@ -80,6 +80,21 @@ Asperato then needs the values of the fields marked:<br/>
 - Public Key<br/>
 - Private Key<br/>
 - Merchant ID
+
+### Checkout.com
+The information that Asperato needs can be obtained from the Checkout.com administration website, which they call "The Hub".
+There is a single piece of information for the configuration, the "Secret key".
+
+For test/sandbox this is:
+<a target="_blank" href="https://sandbox.checkout.com/login">https://sandbox.checkout.com/login</a>
+For live:
+<a target="_blank" href="https://.checkout.com/login">https://hub.checkout.com/login</a>
+https://hub.checkout.com/login
+
+When you log in, it displays the dashboard, on the left hand menu, click settings, then channel. This will display a page showing the secret key.
+
+You can get a test account directly from their website, however you will have to contact their support team 
+(support@checkout.com) so that they can enable the "Full Card details API".
 
 ### CyberSource
 The information that Asperato needs can be obtained from the CyberSource dashboard.
