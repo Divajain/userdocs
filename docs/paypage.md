@@ -158,6 +158,10 @@ There are a number of standard postmessage events that occur when the template i
     <td>When the processing gears are displayed, after the user has submitted the form</td>
   </tr>
   <tr>
+    <td>asp--pcdialog</td>
+    <td>When the postcode lookup dialog is displayed</td>
+  </tr>
+  <tr>
     <td>asp--dddialog</td>
     <td>When the DD confirmation dialog box is displayed (allows the parent frame to refocus the iframe using "window.scrollTo(0,0)")</td>
   </tr>
