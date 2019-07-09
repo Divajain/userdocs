@@ -31,7 +31,7 @@ Note that the authorisation field will be pre-populated with the required author
 Payments can be automatically collected against an existing authorisation by creating a payment record where the following conditions are true:
  - The payment record is set to “Awaiting submission”
  - The payment record is attached to an authorisation
- - The attached authorisation's status is “In force”
+ - The attached authorisation's status is either “In force” or “Pending”
  
 An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.
  
