@@ -79,7 +79,7 @@
 <ul>
 <li>The payment record is set to “Awaiting submission”</li>
 <li>The payment record is attached to an authorisation</li>
-<li>The attached authorisation's status is “In force”</li>
+<li>The attached authorisation's status is either “In force” or “Pending”</li>
 </ul>
 <p>An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.</p>
 <p>This payment record can be created manually as above. However, more commonly in practice, it can also be created automatically as part of a Lightning flow, Process, Apex trigger or any other method Salesforce provides for automation.</p>
