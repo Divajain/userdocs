@@ -7,7 +7,7 @@ sidebar_label: Setup
 ## Pre install considerations
  
 ### Trial period
-By default, on first install from the Appexchange you will be granted a 60 day trial. You will be able to process test payments during this period. After the trial period you will be required to sign up to a yearly subscription. Please contact us for a detailed quote / contract.
+By default, on first install from the Appexchange you will be granted a 90 day trial. You will be able to process test payments during this period. After the trial period you will be required to sign up to a yearly subscription. Please contact us for a detailed quote / contract.
  
 ### Upgrade an existing package
 Asperato is a managed package, and can thus be <a href="https://help.salesforce.com/articleView?id=distribution_upgrading_packages.htm&amp;type=5" target="_blank">upgraded the same way you would install any other package.</a> Simply paste the link into the browser while logged into the Salesforce org, and follow the upgrade instructions.
