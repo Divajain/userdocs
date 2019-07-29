@@ -158,6 +158,15 @@ Once you are logged in there is an Admin menu option and within that a section c
 
 Asperato require the live store ID and the live API key.
 
+### Payline
+
+You will need the following three pieces of information from Payline: 
+- Contract number
+- Merchant ID
+- Access key.
+
+These are obtained from Payline. They will ask for other details about your organisation, point of sale and payment methods.
+
 ### PayPal
 Asperato will need your Client ID and Secret Key.  You can find these in the PayPal developer dashboard.
 
