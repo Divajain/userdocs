@@ -23,7 +23,7 @@ The payment schedule is now active, and will collect overnight each time the fol
 
 If you wish to temporarily stop the payment schedule from collecting, then just edit the record, and change its status from “In force” to “Inactive”.
 
-One important thing to note with regard to Direct Debits; Direct Debits take time to process so to make sure the payment is taken from the customer's bank account on the correct date the whole cycle starts a number of days before the actual due date.  The number of days is a configuration parameter that is set to 4 by default.  If you make a Payment Schedule "Inactive" during that window then there might already be a payment being processed that you will need to deal with separately.
+One important thing to note with regard to Direct Debits; Direct Debits take time to process so to make sure the payment is taken from the customer's bank account on the correct date the whole cycle starts a number of days before the actual due date ("Next Payment Date").  The number of days is a configuration parameter that is set to 4 by default.  If you make a Payment Schedule "Inactive" during that window then there might already be a payment being processed that you will need to deal with separately.
 
 ## Setting parameters for payment schedules
  
