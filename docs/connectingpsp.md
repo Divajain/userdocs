@@ -162,20 +162,17 @@ Asperato require the live store ID and the live API key.
 
 The following information should have been provided by email from payline when you opened your account.
 If you have forgotten this information, you will find it on your contract or by contacting Payline support:
-- Contract number
-This is the VAD contrat number (vente à distance).  For testing this might be a fake one such as "7654321".
-- Merchant ID
-Also called "Merchant's Login" or "Identifiant Commerçant" (a long numeric field)
-- Access key.
-A long alphanumeric key.
+- Contract number (This is the VAD (vente à distance) contrat number.  For testing this might be a fake one such as "7654321".)
+- Merchant ID (Also called "Merchant's Login" or "Identifiant Commerçant", a long numeric field.)
+- Access key. (A long alphanumeric key.)
 
 It is possible to find, or create a new Access key from their admin web site, however you will still need information provided by Payline, usually sent to you via email when you set up the account.
 
-To get into site, you will need the following information, which again would be in the original setup email from Payline.
-
+To get into site, you will need the following information:
 - Merchant's Login ("Identifiant Commerçant" , a long numeric field, as above) 	
 - User ID  ("Identifiant utilisateur",  An email address, set up when the account is created).
 - Password  
+
 The URLs are:
 Test: <a href="https://homologation-admin.payline.com" target="_blank" title="Link to developer dashboard"> https://homologation-admin.payline.com </a>
 Live: <a href="https://admin.payline.com" target="_blank" title="Link to production dashboard"> https://admin.payline.com </a>
@@ -185,7 +182,7 @@ Under the "settings" tab, click on "Change your access key" to either view or ch
 
 For more information on setting up a Payline accounts, see the following:
 <a href="https://payline.atlassian.net/wiki/spaces/DT/pages/32079931/Int+gration+pas+pas" target="_blank" title="link to Payline documentation in french"> https://payline.atlassian.net/wiki/spaces/DT/pages/32079931/Int+gration+pas+pas (French)</a>
-<a href="https://payline.atlassian.net/wiki/spaces/DT/pages/1052409996/Getting+Started+Guide" target="_blank" title="link to Payline documentation in English"> https://payline.atlassian.net/wiki/spaces/DT/pages/1052409996/Getting+Started+Guide(English).</a>
+<a href="https://payline.atlassian.net/wiki/spaces/DT/pages/1052409996/Getting+Started+Guide" target="_blank" title="link to Payline documentation in English"> https://payline.atlassian.net/wiki/spaces/DT/pages/1052409996/Getting+Started+Guide (English).</a>
 
 
 ### PayPal
