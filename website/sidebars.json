@@ -14,7 +14,8 @@
       "connectingpsp",
       "merchantgroups",
       "paypage",
-      "beyond"
+	  "fiparams",
+	  "beyond"
     ]
   }
 }
