@@ -8,7 +8,7 @@ Here lives the source for the Asperato user documentation, available at https://
 The documentation is based on [docusaurus](https://docusaurus.io/). To clone and run locally:
 
  - Install node: https://nodejs.org/en/download/
- - Install yarn: https://yarnpkg.com/en/docs/install#windows-stable
+ - Install yarn: https://yarnpkg.com/en/docs/install
  - Clone the repo: `git clone https://github.com/Asperato/userdocs.git`
  - Navigate into the website directory: `cd website`
  - Install dependencies: `npm install`
