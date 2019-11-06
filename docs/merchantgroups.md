@@ -14,6 +14,11 @@ Merchant Groups enable you to set up different groups of PSP connections, and th
 
 Merchant Groups can be created and used in both lightning and classic. The screenshots here show the process in lightning experience, however it is near identical in classic. If you're struggling, just drop us a line at support@asperato.com and we'll do our best to help out.
 
+## Upgrading from a previous multi-merchant configuration
+If you hold an Asperato multi-merchant license and are using version 2.11 or earlier, then you can still upgrade to 2.12 and your package will function as before.
+
+You can switch to using merchant groups instead, but this will require some configuration changes both in Salesforce and with Asperato. If you wish to do this, please email support@asperato.com for further instructions.
+
 ## In what situation would I want to use merchant groups?
 You can use them however you wish. We find the most common use case is with different legal entities - a franchise for example may have a single Salesforce org managing a few hundred stores across a region, and each of those stores would have their own merchant PSP accounts. The merchant group functionality facilitates this use case by allowing a new merchant group to be set up per store.
 
