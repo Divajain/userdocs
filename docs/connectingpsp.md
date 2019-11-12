@@ -66,7 +66,7 @@ Go to `Account > Settings > API Credentials & Keys`
 ### Braintree
 The information Asperato needs can be obtained from the Braintree Dashboard.
 
-For test/sandbox this is at hub<a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
+For test/sandbox this is at <a target="_blank" href="https://sandbox.braintreegateway.com/login">https://sandbox.braintreegateway.com/login</a>
 
 For live/production this is at <a target="_blank" href="https://www.braintreegateway.com/login">https://www.braintreegateway.com/login</a>
 
