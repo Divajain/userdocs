@@ -241,6 +241,26 @@ We need four pieces of information:
  
  This information can be obtained from the setup emails sent by your integrations specialist. If you do not have an integrations specialist or have mislaid the original emails, then you'll need to <a target="_blank" href="http://connect.vancopayments.com/contact-vanco">contact Vanco</a> and ask them for this information.
 
+### Vantiv (Worldpay WPG platform)
+We need three pieces of information:
+ - Merchant Code (supplied by Worldpay)
+ - Username 
+ - Password
+
+The Username and Password are maintained through the Merchant Adminstration Interface (MIA).  The login URLs for these will vary from test to live, so make sure you use the correct one.
+ - Log into the MIA using your MIA Username and Password.
+ - Click ACCOUNT, then select Profile from the top menu.
+ - Note your New Username for the connection
+ - Click the pencil icon next to XML Password
+ - Enter your new password and click Save XML Password
+ 
+The information needed to create the link to Asperato is then your Merchant Code and the XML username and password from the MIA.
+If you use IP whitelisting to restrict access then please ensure that you add these addresses through the MIA:
+
+77.68.42.36 (for test)
+
+162.13.56.213 (for live running)
+
 ### Worldpay Online
 You need to log onto the <a target="_blank" href="https://online.worldpay.com/login">Worldpay Online Dashboard</a>.
 - Ensure you are in TEST mode.
