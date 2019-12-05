@@ -204,6 +204,12 @@ The sanitised responses we currently support are listed here:
 </tr>
 </table>
 
+## Custom references
+
+Some PSPs allow you to specify a custom reference attached to an payment. You can specify this by using the "Custom reference" field available on the payment object.
+
+However, note that not all PSPs or PSP account types support custom references, and some often have restrictions on the maximum length of a reference. You should check your PSPs documentation for any rules around specifying custom references. Note that setting a custom reference where they are not supported, or setting an invalid custom reference may cause a transaction to fail.
+
 ## Post transaction endpoints
 After a user has loaded the paypage, they may exit the payment page in three different scenarios - having successfully completed the transaction, having unsuccessfully completed the transaction, and having cancelled (not attempted) the transaction. Asperato can send the user to different URLs for each of these three separate scenarios.
 
