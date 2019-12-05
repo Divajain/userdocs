@@ -4,8 +4,6 @@ title: PSP Passthrough Parameters
 sidebar_label: PSP Passthrough Parameters
 ---
 
-# Introduction
-
 Some PSPs allow us to pass specific data on a per-transaction basis. This data could be references for accounting or auditing purposes, additional fields required by some classes of organisations (such as financial institution data), internal payment descriptions, additional customer data, or anything else you require to be sent to your PSP for each transaction. Asperato allows this data to be sent by way of the "PSP passthrough parameters" field.
 
 Before you choose to use this field, you should be aware of the following points:
