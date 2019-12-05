@@ -83,7 +83,13 @@ To supply a link for processing externally, look for the “Ecommerce URL” fie
 ![ECOM URL](/userdocs/img/auth/auth_ecom_url.png "ECOM URL")
  
 This will contain a URL pointing to a webpage for the user to enter their details to set up the authorisation, and can be distributed by any means necessary (email, IM, etc.) When the user has completed the form, the authorisation object will be populated in Salesforce the same way as before.
- 
+
+## Custom references
+
+Some PSPs allow you to specify a custom reference attached to an authorisation. You can specify this by using the "Custom reference" field available on the authorisation object.
+
+However, note that not all PSPs or PSP account types support custom references, and some often have restrictions on the maximum length of a reference. You should check your PSPs documentation for any rules around specifying custom references. Note that setting a custom reference where they are not supported, or setting an invalid custom reference may cause a transaction to fail.
+
 ## Importing Authorisations to Salesforce
  
 If you require existing authorisations from your PSP to be populated in Salesforce, then please contact support@asperato.com with details of your requirements.
