@@ -4,7 +4,7 @@ title: Merchant Groups
 sidebar_label: Merchant Groups
 ---
 
-**Note: This feature will be available from version 2.12 of Asperato ONE. An Asperato Multi-Merchant License is required to enable this feature.**
+**Note: This feature is available from version 2.13 of Asperato ONE. An Asperato Multi-Merchant License is required to enable this feature.**
 
 ## Introduction
 The Asperato ONE PRO license allows for up to 5 connected Payment Service Providers (PSPs) settling into separate bank accounts of different currencies. If you require to settle into multiple bank accounts of the same currency you will need our Multi-Merchant License. For example, you may have a Stripe account for GBP and EUR card payments, a GoCardless account for GBP and EUR direct debit payments and a Cybersource account for USD card payments. However, if you need to connect a second Stripe account to use for a subset of GBP card payments, then an Asperato Multi-Merchant License is required. The Merchant Groups feature is used to manage this requirement. 
