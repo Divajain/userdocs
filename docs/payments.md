@@ -204,7 +204,7 @@ The sanitised responses we currently support are listed here:
 </tr>
 </table>
 
-## Custom references
+## Custom references (2.12+)
 
 Some PSPs allow you to specify a custom reference attached to an payment. You can specify this by using the "Custom reference" field available on the payment object.
 
