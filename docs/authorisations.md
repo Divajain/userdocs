@@ -84,7 +84,7 @@ To supply a link for processing externally, look for the “Ecommerce URL” fie
  
 This will contain a URL pointing to a webpage for the user to enter their details to set up the authorisation, and can be distributed by any means necessary (email, IM, etc.) When the user has completed the form, the authorisation object will be populated in Salesforce the same way as before.
 
-## Custom references
+## Custom references (2.12+)
 
 Some PSPs allow you to specify a custom reference attached to an authorisation. You can specify this by using the "Custom reference" field available on the authorisation object.
 
