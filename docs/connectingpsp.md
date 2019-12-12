@@ -8,6 +8,8 @@ Asperato ONE comes pre-configured with several different PSP connections so you 
 
 To test thoroughly therefore, you'll need to connect your own PSP account.
 
+**Please note that the steps detailed here are correct at the time of writing, but PSPs do change them from time to time, so they may not be up-to-date. If you notice any that aren't correct, please email support@asperato.com so we can get them updated.**
+
 ## Connecting your own PSP account
 
 To connect your own PSP account, you first need to make sure you're in lightning experience - see here for instructions on how to switch to lightning experience if you're not already using it. (Don't worry, you can switch back to classic if you wish as soon as setup is complete.)
