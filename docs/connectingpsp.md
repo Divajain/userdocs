@@ -99,32 +99,6 @@ When you log in, it displays the dashboard, on the left hand menu, click setting
 You can get a test account directly from their website, however you will have to contact their support team 
 (support@checkout.com) so that they can enable the "Full Card details API".
 
-### CyberSource
-The information that Asperato needs can be obtained from the CyberSource dashboard.
-
-The login page for this is at <a target="_blank" href="https://ebc.cybersource.com/ebc/login/Login.do">https://ebc.cybersource.com/ebc/login/Login.do</a>
-
-Make sure you select either the live or test business center as appropriate.
-
-On the left of the dashboard is a menu.  Select the `Account Management` option and within that `Transaction Security Keys`.
-
-On the panel that displays click the `Security Keys for the SOAP Toolkit API` link.  Press the `Generate Key` button and a box will appear that contains the new key.  You must make a copy of the content of this box because it is the only time it will get displayed.
-
-The information that Asperato then needs are:
-
-- CyberSource Merchant ID<br/>
-- Security Key (from the process above)
-
-There is a further element of configuration that you might need to apply to the Cybersource Desktop before the connection is usable.
-
-In the `Account Management` option there is a `Configure IP Settings` section.
-
-If you have restricted the IP ranges that you can log in with then you will need to add the Asperato server addresses to the White List as well.  The IP range restriction is in force if the box marked `Enable IP verification` is checked.
-
-In here you need to add the following IP addresses:
- - For live running - `162.13.56.213`
- - For testing - `77.68.42.36`
-
 ### Forte
 The information that Asperato needs can be obtained from the Forte DEX dashboard.
 
