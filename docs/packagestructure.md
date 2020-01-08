@@ -1,3 +1,9 @@
+---
+id: packagestructure
+title: Package Structure
+sidebar_label: Package Structure
+---
+
 # Salesforce package structure
 The package data objects are called `Payment`, `Payment schedule`, `Authorisation` and `Refund` and they are related to each other as per the diagram below.
 
