@@ -103,6 +103,14 @@ The following provides a description of the available Asperato ONE objects and t
   <tr>
     <td>Mandate Reference</td>
     <td>The reference for a Direct Debit mandate that will need to be displayed to the end customer in emails and other communication.</td>
+      </tr>
+  <tr>
+    <td>Merchant group</td>
+    <td>The merchant group that should be used for this transaction. The default merchant group will be used if left blank. More information on Merchant groups is available [here](https://asperato.github.io/userdocs/docs/merchantgroups).</td>
+  </tr>
+    <tr>
+    <td>PSP Passthrough Parameters</td>
+    <td>See [here](https://asperato.github.io/userdocs/docs/psppassthrough).</td>
   </tr>
   <tr>
     <td>Pass Thru Parameters</td>
@@ -326,6 +334,14 @@ The following provides a description of the available Asperato ONE objects and t
   <tr>
     <td>Last Name</td>
     <td>Records the last name that was captured on the payment page.</td>
+  </tr>
+    <tr>
+    <td>Merchant group</td>
+    <td>The merchant group that should be used for this transaction. The default merchant group will be used if left blank. More information on Merchant groups is available [here](https://asperato.github.io/userdocs/docs/merchantgroups).</td>
+  </tr>
+    <tr>
+    <td>PSP Passthrough Parameters</td>
+    <td>See [here](https://asperato.github.io/userdocs/docs/psppassthrough).</td>
   </tr>
   <tr>
     <td>Pass Thru Parameters</td>
