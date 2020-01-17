@@ -349,7 +349,7 @@ The following provides a description of the available Asperato ONE objects and t
   </tr>
   <tr>
     <td>Payment Date</td>
-    <td>The date on which the payment is either expected to clear or was cleared.</td>
+    <td>The date on which the payment is either expected to clear or was cleared. *Note that this payment date is always in GMT, not the default timezone of the org.*</td>
   </tr>
   <tr>
     <td>Payment Route Options</td>
