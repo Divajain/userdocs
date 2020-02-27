@@ -493,3 +493,36 @@ The following provides a description of the available Asperato ONE objects and t
     <td>A descriptive text showing the reason related to the current refund stage.  Might contain the reason for failure, for example.</td>
   </tr>
 </table>
+
+## Asperato ONE settings
+
+There are five fields in the ‘Asperato ONE settings’ custom settings in the Asperato package. These are described in the table below.
+
+These settings are not routinely changed from the default values, unless specifically instructed to do so by the Asperato team. Changing the values could break your integration with Asperato. 
+
+<table>
+  <tr>
+    <th>Field</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td>BACS Delay</td>
+    <td>The number of days grace to allow a DD payment to be processed by BACS. This is used to change a real Due Date to an artificial value so that the payment is collected from the bank account when it is actually due to be taken. The default value is created at installation and shouldn’t need to be amended unless there is a specific reason to do so.</td>
+  </tr>
+  <tr>
+    <td>Create Payment Schedule</td>
+    <td>Deprecated setting. Do not use.</td>
+  </tr>
+  <tr>
+    <td>Customer ID</td>
+    <td>This value will be populated with your Customer ID when the connection from Salesforce to Asperato has been established. The Asperato ONE package will not function without this value being set.</td>
+  </tr>
+  <tr>
+    <td>Is Running Live</td>
+    <td>The Asperato team will check this box as part of the go-live process.</td>
+  </tr>
+  <tr>
+    <td>Server URL</td>
+    <td>This is the URL of the server that Asperato will use to process payments, refunds and authorisations. At application download this is set to the test server route. For a live installation this will be amended by the Asperato team to point to the live server instance.</td>
+  </tr>
+</table>
