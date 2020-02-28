@@ -214,7 +214,7 @@ However, note that not all PSPs or PSP account types support custom references, 
 ## Post transaction endpoints
 After a user has loaded the paypage, they may exit the payment page in three different scenarios - having successfully completed the transaction, having unsuccessfully completed the transaction, and having cancelled (not attempted) the transaction. Asperato can send the user to different URLs for each of these three separate scenarios.
 
-These URLs can be set by changing the value of fields on the payment record - these fields are are `Success_Endpoint`, `Fail_endpoint`, and `Cancel_endpoint`, and control the URL where a user will be sent in these three scenarios. Note that the "cancel" link will only appear on the payment page if the `Cancel_endpoint` is set.
+These URLs can be set by changing the value of fields on the payment/authorisation record - these fields are are `Success_Endpoint`, `Fail_endpoint`, and `Cancel_endpoint`, and control the URL where a user will be sent in these three scenarios. Note that the "cancel" link will only appear on the payment page if the `Cancel_endpoint` is set.
 
 ### Endpoint Considerations:
 - Endpoints need to be set on individual payment/authorisation records. This can be done manually, or more likely, in practice, via a Salesforce Process Builder/Workflow. 
