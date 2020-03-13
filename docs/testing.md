@@ -4,8 +4,6 @@ title: Testing Payments
 sidebar_label: Testing
 ---
 
-# Testing Payments 
- 
 Once you have completed the setup steps in Asperato, or are in the process of adding configuration it is likely that you will want to complete some test payments. 
  
  - Please note that this guidance is for testing payments whilst in test mode only. 
