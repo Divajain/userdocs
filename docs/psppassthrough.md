@@ -22,7 +22,7 @@ Current support is limited to GoCardless and Sagepay. If you require support for
 
 ## GoCardless
 
-GoCardless supports sending a description for either a payment or authorisation using a single "description" key.
+GoCardless supports sending a description for payment records using a single "description" key.
 
 Example:
 
@@ -30,7 +30,9 @@ Example:
 {"description": "test description"}
 ```
 
-Note that this is different from setting a custom mandate or payment reference, which can be achieved by setting the "custom reference" field (if you have custom references enabled and available on your GoCardless account.)
+If GoCardless sends notification emails to your customers, this description will be included. It is also visible for the payment record on the GoCardless dashboard. (Note that descriptions are not supported for mandates.)
+
+Note that this is different from setting a custom reference, which can be achieved by setting the "custom reference" field (if you have custom references enabled and available on your GoCardless account.)
 
 ## Sagepay
 
