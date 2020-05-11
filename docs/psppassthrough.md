@@ -6,7 +6,7 @@ sidebar_label: PSP Passthrough Parameters
 
 **This feature requires version 2.13 or above of Asperato ONE.**
 
-Some PSPs allow us to pass specific data on a per-transaction basis. This data could be references for accounting or auditing purposes, additional fields required by some classes of organisations (such as financial institution data), internal payment descriptions, additional customer data, or anything else you require to be sent to your PSP for each transaction. Asperato allows this data to be sent by way of the "PSP passthrough parameters" field.
+Some PSPs allow us to pass specific data on a per-transaction basis. This data could be references for accounting or auditing purposes, additional fields required by some classes of organisations (such as financial institution data), internal payment descriptions, additional customer data, or anything else you require to be sent to your PSP for each transaction. Asperato allows this data to be sent by way of the `PSP passthrough parameters` field.
 
 Before you choose to use this field, you should be aware of the following points:
 
@@ -22,6 +22,8 @@ Current support is limited to GoCardless and Sagepay. If you require support for
 
 ## GoCardless
 
+### Description
+
 GoCardless supports sending a description for payment records using a single "description" key.
 
 Example:
@@ -32,7 +34,36 @@ Example:
 
 If GoCardless sends notification emails to your customers, this description will be included. It is also visible for the payment record on the GoCardless dashboard. (Note that descriptions are not supported for mandates.)
 
-Note that this is different from setting a custom reference, which can be achieved by setting the "custom reference" field (if you have custom references enabled and available on your GoCardless account.)
+By default, Asperato includes the Asperato transaction reference in the description field in GoCardless. Setting a custom description as above will remove the transaction reference from this field.
+
+*Note that this is different from setting a custom reference, which can be achieved by setting the "custom reference" field (if you have custom references enabled and available on your GoCardless account.)*
+
+### Custom metadata
+
+GoCardless supports sending custom pairs of key-value metadata for customer, payment and mandate records. At present up to three key-value pairs are supported for each record type (this limitation is on the GoCardless side, not the Asperato side.)
+
+After processing, the metadata should be visible the relevant payment, customer or mandate object in the GoCardless dashboard.
+
+#### Payment
+
+The custom payment metadata can be set on the payment record in Salesforce, by populating the `PSP Passthrough Parameters` field as follows:
+
+    {"payment_metadata":{"Key1":"Value1","Key2":"Value2","Key3":"Value3"}}
+    
+For example, the following would be valid:
+
+    {"payment_metadata":{"InternalRef":"19583716","BedSize":"XL"}}
+
+#### Authorisation
+
+Custom metadata can be set for mandate and customer objects on the authorisation record in Salesforce, by populating the `PSP Passthrough Parameters` field as follows:
+
+    {"customer_metadata":{"CustomerKey1":"CustomerValue1","CustomerKey2":"CustomerValue2"},"mandate_metadata":{"MandateKey1":"MandateValue1","MandateKey2":"MandateValue2"}}
+
+Note that:
+
+ - Up to three key-value pairs can be provided for `customer_metadata` and another three for `mandate_metadata` (six in total.)
+ - Specifying both `customer_metadata` and `mandate_metadata` fields is not required.
 
 ## Sagepay
 
