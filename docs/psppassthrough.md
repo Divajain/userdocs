@@ -26,7 +26,7 @@ Current support is limited to GoCardless and Sagepay. If you require support for
 
 GoCardless supports sending a description for payment records using a single "description" key.
 
-Example:
+The 'description' can be can be set by populating the PSP Passthrough Parameters field as follows:
 
 ```
 {"description": "test description"}
