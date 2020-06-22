@@ -82,7 +82,7 @@ Payment statuses are provided as follows:
 <td>The payment has been collected from the customer and has been confirmed.</td>
 </tr><tr>
 <th>Failed</th>
-<td>The payment failed to collect. There are a variety of reasons why this could happen, in this case there should be a reason documented in the “Status description” field.</td>
+<td>The payment failed to collect. There are a variety of reasons why this could happen, in this case there should be a reason documented in the “Status description” field. Note that if a payment fails, and that payment is attached to an authorisation, the authorisation status will be unaffected. The failure of a payment does not necessarily imply a failure of the underlying authorisation (for example, it could simply be that there are insufficient funds in the account at this time.)</td>
 </tr>
 </table>
  
