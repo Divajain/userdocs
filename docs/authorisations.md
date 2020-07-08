@@ -84,6 +84,26 @@ To supply a link for processing externally, look for the “Ecommerce URL” fie
  
 This will contain a URL pointing to a webpage for the user to enter their details to set up the authorisation, and can be distributed by any means necessary (email, IM, etc.) When the user has completed the form, the authorisation object will be populated in Salesforce the same way as before.
 
+## Updating a GoCardless Authorisation/Mandate
+
+Updating a GoCardless Authorisation/Mandate can be done internally to the Salesforce Org (for example, if an agent in a call centre was taking details over the phone to set up an authorisation) or externally (if a link to setup the authorisation is required outside of Salesforce.)
+
+To update an authorisation manually, hit the “Process authorisation” button on the authorisation record in Salesforce. 
+
+![Process authorisation button](/userdocs/img/auth/process_authorisation.png "Process authorisation button")
+
+An overlay will appear containing the payment form, the updated details should be entered on this form and submitted. This will create a new mandate in GoCardless rather than update the details on the existing one, all new payments against the updated Asperato authorisation record will use the newly created GoCardless mandate. 
+
+To supply a link for processing externally, look for the “eCommerce URL” field on the Asperato authorisation record:
+
+![ECOM URL](/userdocs/img/auth/auth_ecom_url.png "ECOM URL")
+
+This will contain a URL pointing to a webpage for the user to enter their updated details to ‘update’ the authorisation. When the user has submitted the form, the Asperato authorisation record will be populated with the updated details. As above, this will create a new mandate in GoCardless rather than update the details on the existing one, all new payments against the updated Asperato authorisation record will use the newly created GoCardless mandate. 
+
+## Cancelling a GoCardless Authorisation/Mandate
+
+The Asperato application does not support cancelling direct debits, this has to be done directly on the GoCardless by logging in to your GoCardless Dashboard.
+
 ## Custom references (2.13+)
 
 Some PSPs allow you to specify a custom reference attached to an authorisation. You can specify this by using the "Custom reference" field available on the authorisation object.
