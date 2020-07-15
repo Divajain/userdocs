@@ -24,7 +24,7 @@ Current support is limited to GoCardless and Sagepay. If you require support for
 
 ### Description
 
-GoCardless supports sending a description for payment records using a single "description" key.
+GoCardless supports sending a description for payment records using a single "description" key. Note that this isn't supported for mandates.
 
 The 'description' can be can be set by populating the PSP Passthrough Parameters field as follows:
 
@@ -36,7 +36,17 @@ If GoCardless sends notification emails to your customers, this description will
 
 By default, Asperato includes the Asperato transaction reference in the description field in GoCardless. Setting a custom description as above will remove the transaction reference from this field.
 
-*Note that this is different from setting a custom reference, which can be achieved by setting the "custom reference" field (if you have custom references enabled and available on your GoCardless account.)*
+### Reference
+
+GoCardless supports sending a reference for payment records using a single "reference" key. Note that this isn't supported for mandates.
+
+The 'reference' can be can be set by populating the PSP Passthrough Parameters field as follows:
+
+```
+{"reference": "testref"}
+```
+
+This reference will appear on your customer’s bank statement. Note that there are restrictions in place around the reference format, and setting it incorrectly may cause payments to fail. Different schemes have different maximum lengths, and some schemes require that the reference is unique.
 
 ### Custom metadata
 
