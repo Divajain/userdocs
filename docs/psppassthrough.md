@@ -46,7 +46,9 @@ The 'reference' can be can be set by populating the PSP Passthrough Parameters f
 {"reference": "testref"}
 ```
 
-This reference will appear on your customer’s bank statement. Note that there are restrictions in place around the reference format, and setting it incorrectly may cause payments to fail. Different schemes have different maximum lengths, and some schemes require that the reference is unique.
+This reference will appear on your customer’s bank statement.
+
+**You must make sure any use of custom references is tested thoroughly in a sandbox prior to live deployment.** Support for custom references must be explicitly enabled by GoCardless, and there are strict restrictions in place around the reference format - different schemes have different maximum lengths, and some schemes require that the reference is unique. If you do not adhere to the correct format, or the custom reference functionality isn't enabled, your transactions will likely fail.
 
 ### Custom metadata
 
