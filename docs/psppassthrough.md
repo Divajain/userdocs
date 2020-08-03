@@ -79,4 +79,15 @@ Note that:
 
 ## Sagepay
 
-Sagepay supports the use of this field for specifying per-transaction financial institution (6012) data. More information is available [here](https://asperato.github.io/userdocs/docs/fiparams).
+Sagepay supports sending a reference for payment records using a single "reference" key.  This reference is called "VendorData" in Sage's documentation.
+
+The 'reference' can be can be set by populating the PSP Passthrough Parameters field as follows:
+
+```
+{"reference": "testref"}
+```
+
+From their documentation: "The field accepts 200 standard alpha-numeric characters (Aa-Zz, 0-9) and is included in the transaction registration post."  
+The value is shown in a column at the right of the transaction search table on the Sagepay dashboard as “Reference”.  Note that reference cannot contain characters such as underscores, if you include such characters the payment will fail.
+
+Sagepay also supports the use of the PSP Passthrough Parameters field for specifying per-transaction financial institution (6012) data. More information is available [here](https://asperato.github.io/userdocs/docs/fiparams).
