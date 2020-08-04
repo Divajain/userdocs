@@ -99,6 +99,14 @@ When you log in, it displays the dashboard, on the left hand menu, click setting
 You can get a test account directly from their website, however you will have to contact their support team 
 (support@checkout.com) so that they can enable the "Full Card details API".
 
+### Cybersource
+The information that Asperato needs can be obtained from the Cybersource Enterprise Business dashboard.
+
+The Merchant ID is shown on the banner segment on the top of the page.
+
+To generate a Security Key select the "Payment Configuration" option on the left-hand menu, followed by "Key Management".  The press the "+ GENERATE KEY" button.
+The type of key should be "Transaction Processing" and the key sub-type should be "SOAP".  The security key will then be displayed.  You should make a copy of this key because it is the only time that it will be shown.
+
 ### Forte
 The information that Asperato needs can be obtained from the Forte DEX dashboard.
 
