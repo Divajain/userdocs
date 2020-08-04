@@ -100,7 +100,7 @@ You can get a test account directly from their website, however you will have to
 (support@checkout.com) so that they can enable the "Full Card details API".
 
 ### Cybersource
-The information that Asperato needs can be obtained from the Cybersource Enterprise Business dashboard.
+The information that Asperato needs can be obtained from the Cybersource Enterprise Business Center dashboard.
 
 The Merchant ID is shown on the banner segment on the top of the page.
 
