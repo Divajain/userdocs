@@ -146,7 +146,7 @@ Asperato require the live store ID and the live API key.
 
 The following information should have been provided by email from payline when you opened your account.
 If you have forgotten this information, you will find it on your contract or by contacting Payline support:
-- Contract number (This is the VAD (vente à distance) contrat number.  For testing this might be a fake one such as "7654321".)
+- Contract number (This is the VAD (vente à distance) contract number.  For testing this might be a fake one such as "7654321".)
 - Merchant ID (Also called "Merchant's Login" or "Identifiant Commerçant", a long numeric field.)
 - Access key. (A long alphanumeric key.)
 
