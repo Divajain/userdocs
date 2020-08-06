@@ -18,7 +18,7 @@ Fill in the rest of the required fields (see below for an explanation) and then 
 The payment schedule is now active, and will collect overnight each time the following conditions are met:
 
 - The "Next Payment Date" is set to either today, or is in the past
-- The status of the Payment schedule is set to "In force"
+- The status of the Payment schedule is set to "Active"
 - The status of the authorisation attached to the payment schedule is "In force"
 
 If you wish to temporarily stop the payment schedule from collecting, then just edit the record, and change its status from “In force” to “Inactive”.
