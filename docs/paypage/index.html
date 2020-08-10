@@ -117,10 +117,12 @@
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">let</span> form = <span class="hljs-keyword">new</span> PaymentFormDisplay(
     {
         <span class="hljs-attr">customerRef</span>: <span class="hljs-number">9797</span> <span class="hljs-comment">//Replace with your customer reference</span>
+        <span class="hljs-attr">environment</span>: <span class="hljs-string">"test"</span> <span class="hljs-comment">//"test", "live"</span>
     }
 );
 </code></pre>
-<p>As per the comment, the customer reference <code>9797</code> is an example and will need to be changed to your unique reference (obtained when you sign up for an Asperato account.)</p>
+<p>As per the comment, the customer reference <code>9797</code> is an example and will need to be changed to your Asperato customer ID (obtained when you connect your Saleforce Org to Asperato.)</p>
+<p>Also, as per the comment, the environment name is available in the payment page URL. For example, if the URL on  a payment record is &quot;<a href="https://test.protectedpayments.net/PMWeb1?pmRef=121&amp;pid=a031n00000XGkm5">https://test.protectedpayments.net/PMWeb1?pmRef=121&amp;pid=a031n00000XGkm5</a>&quot; then &quot;test&quot; is the environment name.</p>
 <ul>
 <li>The following code will need to be called to show the form (such as in the <code>onclick</code> attribute of a button):</li>
 </ul>
