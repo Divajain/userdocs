@@ -113,6 +113,41 @@ form.showForm(
 );
 ```
 
+## Using the paypage template in a Lightning Component
+
+To use the payapge template in a Lightning Component, follow the steps below
+
+1. Download the script from below URL, and save it in a new Javascript file
+
+https://live.protectedpayments.net/asperato-form-1.0.js
+
+2. Add this new file in a new static resource named PayPageJS
+3. Add below code in lightning component
+```javascript
+       <ltng:require scripts="{!$Resource.PayPageJS}" afterScriptsLoaded="{!c.onScriptLoad}"> </ltng:require>
+```
+4. Add below code in lightning component controller
+```javascript
+     ({
+      onScriptLoad: function(component, event, helper) {
+          var form = new PaymentFormDisplay(
+            {
+                customerRef: 9797, //Replace with your customer reference
+                environment : "test" //"test", "live"
+            }
+            );
+         form.showForm(
+         {
+              paymentRef: "a030Y008393c4E4" // Replace with payment Id
+         }
+         );
+     }
+})
+  
+```
+5. To acccess this page in a Saleforce Community, add the payment page URL in CSP Trusted Sites in the Salesforce Community. For example, if the URL on a payment record is https://live.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5
+Then add https://live.protectedpayments.net in  CSP Trusted Sites in salesforce.
+
 ### Warnings & Errors
 If you run into problems then we would advise keeping an eye on your browser's console - many common issues (unknown fields, required fields not specified, field vales in the wrong format, etc.) are printed there as warnings or errors.
 
