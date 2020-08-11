@@ -52,7 +52,7 @@ Minor stylistic changes, such as the fonts, colours and logo used can be made by
 
 If you would like any customised changes in this regard, contact support@asperato.com with details of the changes required since we will have to apply these customisations for you.
 
-## Using the template as an overlay
+## Using the paypage template as an overlay
 
 The simplest way of using the template is as an overlay - this can be achieved by inserting minimal Javascript into an existing web page.
 
