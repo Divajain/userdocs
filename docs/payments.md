@@ -32,7 +32,7 @@ Payments can be automatically collected against an existing authorisation by cre
  - The payment record is set to “Awaiting submission”
  - The payment record is attached to an authorisation
  - The attached authorisation's status is either “In force” or “Pending”
- - The payment record has a "Due date" either today, on in the past
+ - The payment record has a "Due date" either today, or in the past
  
 An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.
  
