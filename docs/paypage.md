@@ -119,7 +119,7 @@ To use the payapge template in a Lightning Component, follow the steps below
 
 1. Download the script from below URL, and save it in a new Javascript file
 
-https://live.protectedpayments.net/asperato-form-1.0.js
+https://live.protectedpayments.net/asperato-form-lighnting-1.0.js
 
 2. Add this new file in a new static resource named PayPageJS
 3. Add below code in lightning component
