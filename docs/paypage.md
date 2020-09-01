@@ -115,7 +115,7 @@ form.showForm(
 
 ## Using the paypage template in a Lightning Component
 
-To use the payapge template in a Lightning Component, follow the steps below
+To use the paypage template in a Lightning Component, follow the steps below:
 
 1. Download the script from below URL, and save it in a new Javascript file
 
