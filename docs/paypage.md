@@ -78,7 +78,7 @@ To use the template as an overlay, just three bits of Javascript are needed:
 ```javascript
 let form = new PaymentFormDisplay(
     {
-        customerRef: 9797 //Replace with your customer reference
+        customerRef: 9797, //Replace with your customer reference
         environment: "test" //"test", "live"
     }
 );
