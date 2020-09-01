@@ -145,8 +145,8 @@ https://live.protectedpayments.net/asperato-form-lighnting-1.0.js
 })
   
 ```
-5. To acccess this page in a Saleforce Community, add the payment page URL in CSP Trusted Sites in the Salesforce Community. For example, if the URL on a payment record is `https://live.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5`
-Then add `https://live.protectedpayments.net` in  CSP Trusted Sites in salesforce.
+5. To acccess this page in a Saleforce Community, add the payment page URL in CSP Trusted Sites in the Salesforce Community. For example, if the URL on a payment record is `https://live.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5`, then add `https://live.protectedpayments.net` in  CSP Trusted Sites in salesforce.
+
 Also implement the <b>forceCommunity:availableForAllPageTypes</b> interface in lightning component
 ```javascript
        <aura:component implements="forceCommunity:availableForAllPageTypes">
