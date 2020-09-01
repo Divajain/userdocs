@@ -127,6 +127,11 @@ The Location ID is the number displayed under the location name when you select 
 ### GoCardless
 Asperato will redirect you to the GoCardless sign up page to complete your details to obtain a GoCardless account. If you already have a GoCardless Account click the Sign in link at the bottom of the form and enter your details as required. Once complete you will see a message from Asperato confirming the connection.
 
+### IntelliPay
+We need two pieces of information:
+ - Merchant Key
+ - API Key
+
 ### Moneris
 For testing you will need a username, a store ID and an API key.
 
