@@ -113,6 +113,8 @@ form.showForm(
 );
 ```
 
+To access a visualforce page in the Lightning community we have to make it available for lightning experience by enabling the <b>Available for Lightning Experience, Lightning Communities, and the mobile app</b> checkbox on Visualforce page in setup.
+
 ## Using the paypage template in a Lightning Component
 
 To use the paypage template in a Lightning Component, follow the steps below:
