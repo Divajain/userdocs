@@ -147,6 +147,13 @@ Once you are logged in there is an Admin menu option and within that a section c
 
 Asperato require the live store ID and the live API key.
 
+### Paragon
+
+The following information should have been provided by email from Paragon when you opened your account.  You should also be able to find the information inside the Paragon desktop.
+The two bits of data that Asperato requires are:
+Username (API Username)
+Password (API Password)
+
 ### Payline
 
 The following information should have been provided by email from payline when you opened your account.
