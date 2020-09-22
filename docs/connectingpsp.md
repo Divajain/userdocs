@@ -149,10 +149,10 @@ Asperato require the live store ID and the live API key.
 
 ### Paragon
 
-The following information should have been provided by email from Paragon when you opened your account.  You should also be able to find the information inside the Paragon desktop.
+The following information should have been provided by email from Paragon when you opened your account.  If you no longer have that information then you will need to contact Paragon support and request it (ISVgatewaysupport@paragonsolutions.com)
 The two bits of data that Asperato requires are:
-Username (API Username)
-Password (API Password)
+- Username (API Username)
+- Password (API Password)
 
 ### Payline
 
