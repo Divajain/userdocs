@@ -76,11 +76,11 @@ Payments are created in Salesforce either manually by a user, or by an automated
 
 Payment records are exactly that, a request for a payments. They can be a card payment, direct debit payment, ACH/eCheck payment or a Paypal payment - we treat them all the same.
 
-Payment records contain all of the information needed to control the payee experience via the paypage; this includes currencies, payment routes available, amounts, languages and more, as well as directing the user to different pages depending on if the payment was successful or failed.
+Payment records contain all of the information needed to control the payor's experience via the paypage; this includes currencies, payment routes available, amounts, languages and more, as well as directing the user to different pages depending on if the payment was successful or failed.
 
 Payment records can be pre-populated with as much or as little information as you choose. 
 
-Once a Payment record has been processed, all the relevant information from the PSP is populated on to this record alongside a status update. Details such as the payee name, time and date of payments, any error codes, transaction references etc. are all visible on the payment record.
+Once a Payment record has been processed, all the relevant information from the PSP is populated on to this record alongside a status update. Details such as the payor's name, time and date of payments, any error codes, transaction references etc. are all visible on the payment record.
 
 Key fields include:
 
