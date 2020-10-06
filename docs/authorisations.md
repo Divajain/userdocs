@@ -66,6 +66,16 @@ The following statuses are available on the authorisation object:
  
 ## Creating and Requesting Authorisations
  
+An Asperato Authorisation is completed in 2 steps as follows:
+
+(1) Creating an Authorisation Record in Salesforce;
+
+(2) Processing an Authorisation.
+
+### Creating an Authorisation Record in Salesforce
+An authorisation can be created manually in Salesforce by clicking the "New" button on the Authorisation object, completing the details and saving the record. 
+
+### Processing an Authorisation
 Authorisations can either be processed internally to the org (for example, if an agent in a call centre was taking details over the phone to set up an authorisation) or externally (if a link to setup the authorisation is required outside of Salesforce.)
  
 The Asperato package can cover both of these use cases.
