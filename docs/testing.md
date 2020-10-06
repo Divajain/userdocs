@@ -84,7 +84,7 @@ Responses from card gateways will the outcome of your test will be almost instan
 To check which card gateway you are using, head to the asperato setup page and check details against each currency you have set up.
  
 ### Failed card payment scenarios 
-In some cases you will want to test certain scenarios,  to ensure that the outcomes are being passed back to the relevant record. For example, failed payments due to insufficient funds,  card expired etc  Again each PSP has its own set of agreed mechanisms for doing this. They can be found by heading to your chosen PSP website and searching for test cards.  Typical methods for doing this include using specific card numbers, specific payee names or specific amounts. If at any point you struggle to find the details please drop an email to support@asperato.com and we can try to assist.
+In some cases you will want to test certain scenarios,  to ensure that the outcomes are being passed back to the relevant record. For example, failed payments due to insufficient funds,  card expired etc  Again each PSP has its own set of agreed mechanisms for doing this. They can be found by heading to your chosen PSP website and searching for test cards.  Typical methods for doing this include using specific card numbers, payor names or amounts. If at any point you struggle to find the details please drop an email to support@asperato.com and we can try to assist.
  
 ## Testing Direct Debit (GoCardless)
  
