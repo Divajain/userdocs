@@ -47,6 +47,23 @@ Asperato will require keys to connect to a user's payment service provider.
 
 Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
 
+## IP whitelisting
+
+Some Payment Service Providers require the Asperato service to have an IP whitelist entry in order to process transactions.  If that applies then use these values:
+
+For TEST
+
+- 35.179.25.58
+- 77.68.42.36
+
+For LIVE
+
+- 162.13.56.213
+
+Where a subnet mask is required then use the value 255.255.255.255
+
+Where CIDR notation is required add /32 to the end of the addresses above.
+
 ### Adyen
 To connect Adyen to Asperato you will need:
 
