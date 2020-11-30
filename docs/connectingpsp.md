@@ -58,6 +58,7 @@ For TEST
 
 For LIVE
 
+- 35.177.118.40
 - 162.13.56.213
 
 Where a subnet mask is required then use the value 255.255.255.255
