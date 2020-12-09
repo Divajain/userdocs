@@ -39,7 +39,7 @@ If you instead see a red cross, that means we had an issue trying to connect to 
 
 ## Test account details
 
-Note that test account details will vary between payment service providers - they each have their own set of test details, though there are some "common" ones used across providers. Most PSPs have pages online where they supply such test deatils.
+Note that test account details will vary between payment service providers - they each have their own set of test details, though there are some "common" ones used across providers. Most PSPs have pages online where they supply such test details.
 
 ## Payment service provider keys
 
