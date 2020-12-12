@@ -21,7 +21,7 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td>Adyen</td>
     <td>ECOM</td>
-    <td> <img src="userdocs/img/green-check-box-with-check-48px.png" alt="Supported"/></td>
+    <td> <img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported"/></td>
     <td>![Supported](userdocs/website/static/img/green-check-box-with-check-48px.png)</td>
     <td>![Supported](userdocs/website/static/img/green-check-box-with-check-48px.png)</td>
     <td>![Supported](userdocs/website/static/img/green-check-box-with-check-48px.png)</td>
