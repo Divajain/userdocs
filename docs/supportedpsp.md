@@ -43,67 +43,67 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Adyen</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Adyen</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Authorize.Net</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Authorize.Net</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Authorize.Net</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Bottomline PTX</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Bottomline PTX (Validation)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
@@ -113,39 +113,39 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Braintree</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-qzcq"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Braintree</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Cardsave</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Cardsave</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -153,110 +153,110 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Checkout.com</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Checkout.com</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">CyberSource</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">CyberSource</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Forte</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Forte</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Forte</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless BACS (GBP)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless BECS (AUD)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless BECSNZ (NZD)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless SEPA (EUR)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
@@ -277,29 +277,29 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Intellipay</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Intellipay</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Intellipay</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -307,49 +307,49 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Moneris</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Moneris</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Paragon</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Paragon</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Paragon</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -357,20 +357,20 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Paya</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-wp8o"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-wp8o"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Paya</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
@@ -378,9 +378,9 @@ sidebar_label: Supported Payment Service Providers
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payeezy</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
@@ -388,36 +388,36 @@ sidebar_label: Supported Payment Service Providers
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payeezy</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payline</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payline</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payonomy (validation)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
@@ -428,58 +428,58 @@ sidebar_label: Supported Payment Service Providers
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Paypal</span></td>
     <td class="tg-0pky">Wallet</td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">SagePay</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">SagePay</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Stripe</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Stripe</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Vanco</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
@@ -487,9 +487,9 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Vanco</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -497,9 +497,9 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Vanco</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -507,29 +507,29 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Vantiv</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Vantiv</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Vantiv</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -537,40 +537,40 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Worldpay (Corporate)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Worldpay (Corporate)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">WorldPay Online</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">WorldPay Online</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
-    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" widht="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="website/static/img/green-check-box-with-check-48px.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
