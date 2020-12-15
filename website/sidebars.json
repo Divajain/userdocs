@@ -12,6 +12,7 @@
     ],
     "In depth": [
       "packagestructure",
+      "supportedpsp",
       "connectingpsp",
       "testing",
       "merchantgroups",
