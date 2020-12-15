@@ -43,7 +43,7 @@ sidebar_label: Supported Payment Service Providers
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Adyen</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="20" height="20"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="20" height="20"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="20" height="20"/></td>
