@@ -41,12 +41,6 @@ If you instead see a red cross, that means we had an issue trying to connect to 
 
 Note that test account details will vary between payment service providers - they each have their own set of test details, though there are some "common" ones used across providers. Most PSPs have pages online where they supply such test details.
 
-## Payment service provider keys
-
-Asperato will require keys to connect to a user's payment service provider.
-
-Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
-
 ## IP whitelisting
 
 Some Payment Service Providers require the Asperato service to have an IP whitelist entry in order to process transactions.  If that applies then use these values:
@@ -64,7 +58,12 @@ Where a subnet mask is required then use the value 255.255.255.255
 
 Where CIDR notation is required add /32 to the end of the addresses above.
 
-### Adyen
+## Payment service provider keys
+
+Asperato will require keys to connect to a user's payment service provider.
+
+Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
+
 To connect Adyen to Asperato you will need:
 
 - Merchant account
@@ -210,12 +209,12 @@ Once an App exist you can click on its name in the `REST API apps` section and t
 Although not directly related to keys there are some other considerations for using PayPal as a payment route.  The main issue is that PayPal will not let you run any of their screens in an iframe or overlay, and outside of this the whole process is managed by re-direction.  This means that you will need to use the Asperato PostMessage event `asp--redir` to determine where the redirection should go to when using iframe techniques.  The documentation about the Asperato PostMessage events can be found <a href="https://asperato.github.io/docs/templates/#postmessage-events" target="_blank" >here</a>.<br/>
 The other set-up issue you need to consider is that because the PayPal payment is managed by re-direction you need to set the Cancel, Success and Fail endpoints on the payment record before you launch the Asperato paypage so that you can control what happens when the payment transaction completes.  The description of these fields can be found <a href="https://asperato.github.io/docs/sf/#payment" target="_blank">here</a>.
 
-### Sage Pay
-Asperato will ask you for your Vendor name to connect to Sage Pay. This is the same as your Sage Pay account credentials. If you do not know these, contact your Sage Pay Administrator.
+### SagePay (Opayo)
+Asperato will ask you for your Vendor name to connect to SagePay. This is the same as your SagePay account credentials. If you do not know these, contact your SagePay Administrator.
 
-There is an additional configuration task you will need to perform in order to allow Asperato to talk to the Sage Pay gateway (for both the test and live environments) because Sage Pay perform valid IP checks:
+There is an additional configuration task you will need to perform in order to allow Asperato to talk to the SagePay gateway (for both the test and live environments) because SagePay perform valid IP checks:
 
-- Log into the Sage Pay desktop
+- Log into the SagePay desktop
 - Under the Settings tab there is a Valid IPs option, select that
 - Press the Add button
 - For testing set the IP address to 035.179.025.058, the Subnet mask to 255.255.255.255 and the Description to Asperato test
