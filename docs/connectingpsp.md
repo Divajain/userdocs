@@ -54,7 +54,6 @@ Some Payment Service Providers require the Asperato service to have an IP whitel
 For TEST
 
 - 35.179.25.58
-- 77.68.42.36
 
 For LIVE
 
@@ -219,8 +218,9 @@ There is an additional configuration task you will need to perform in order to a
 - Log into the Sage Pay desktop
 - Under the Settings tab there is a Valid IPs option, select that
 - Press the Add button
-- For testing set the IP address to 077.068.042.036, the Subnet mask to 255.255.255.255 and the Description to Asperato test
-- For live running set the IP address to 162.013.056.213, the Subnet mask to 255.255.255.255 and the Description to Asperato live
+- For testing set the IP address to 035.179.025.058, the Subnet mask to 255.255.255.255 and the Description to Asperato test
+- For live running set the IP address to 035.177.118.040, the Subnet mask to 255.255.255.255 and the Description to Asperato live1 and
+- For live running set the IP address to 162.013.056.213, the Subnet mask to 255.255.255.255 and the Description to Asperato live2
 
 ### Stripe
 You will need your API key to connect Stripe to Asperato.
