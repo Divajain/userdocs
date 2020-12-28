@@ -16,7 +16,7 @@ To connect your own PSP account, you first need to make sure you're in lightning
 
 Once you are in lightning experience, navigate to the "Asperato Setup" tab and then follow the instructions below:
 
-1. Click the "Add new connection" button on the "PSP connections" lightning component:
+1. Click the "New PSP connection" button on the "PSP connections" lightning component:
 
 ![Add new connection](/userdocs/img/adding_psp/add_new_connection.png)
 
@@ -27,11 +27,13 @@ Once you are in lightning experience, navigate to the "Asperato Setup" tab and t
  - The PSP you wish to connect. *(PSP not in that list? Don't worry, we're always adding more. Email support@asperato.com and we'll see what we can do.)*
  - An optional description of this PSP connection (such as "Wholefood Tavistock branch".)
 
-3. The dialog will then show you the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the details, it should look something like this:
+3. You will get to select option to "Use Custom Gateway Details" or "Use Asperato Gateway Details"
+
+4. Select option "Use Custom Gateway Details". The dialog will then ask you to enter the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the details, it should look something like this:
 
 ![New connection dialog](/userdocs/img/adding_psp/new_connection_dialog.png)
 
-4. Click the "Create PSP connection" button.
+5. Click the "Create PSP connection" button.
 
 The "PSP connections" component should now be updated with your new gateway connection - if all has worked ok, you'll see a green tick by your newly added connection.
 
