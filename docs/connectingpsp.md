@@ -18,7 +18,7 @@ Once you are in lightning experience, navigate to the "Asperato Setup" tab and t
 
 1. Click the "New PSP connection" button on the "PSP connections" lightning component:
 
-![Add new connection](/userdocs/img/adding_psp/add_new_connection.png)
+![Add new connection](/userdocs/img/adding_psp/add_new_connection_R2_15.PNG)
 
 2. In the dialog that appears, select:
 
@@ -31,7 +31,7 @@ Once you are in lightning experience, navigate to the "Asperato Setup" tab and t
 
 4. Select option "Use Custom Gateway Details". The dialog will then ask you to enter the keys required for the PSP you have selected. You will need to obtain these from your PSP (instructions can be found below for some PSPs.) When you've entered all the details, it should look something like this:
 
-![New connection dialog](/userdocs/img/adding_psp/new_connection_dialog.png)
+![New connection dialog](/userdocs/img/adding_psp/new_connection_dialog_R_2_15.PNG)
 
 5. Click the "Create PSP connection" button.
 
