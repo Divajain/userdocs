@@ -54,7 +54,8 @@ The following frequency options are available:
  - Weekly
  - Monthly
  - Quarterly
- - Biannual
+ - Semi-annual
  - Annual
+ - Single
 
 
