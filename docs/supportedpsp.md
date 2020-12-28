@@ -31,6 +31,7 @@ sidebar_label: Supported Payment Service Providers
 
 Below table lists the PSPs supported by Asperato with the details of the features supported for each PSP.
 <BR>
+<BR>
 **Please note that the details given below are correct at the time of writing. They may not be up-to-date. If you notice any that aren't correct, please email support@asperato.com so we can get them updated.**
 
 <BR>
