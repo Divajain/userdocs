@@ -35,7 +35,7 @@ Asperato is a Connected App. To securely connect Salesforce to Asperato:
 
 If you've completed the above successfully, you should see something like the following:
 
-![Setup successful](/userdocs/img/overview/setup_success_R2_15.png "Setup successful")
+![Setup successful](/userdocs/img/overview/setup_success_R2_15.PNG "Setup successful")
  
 ## Connecting Salesforce to your chosen Payment Service Providers
 On the Asperato Setup page you will see a list of pre-connected payment service providers. These allow you to take immediate test payments. If you wish to connect your own payment service provider, [please see the instructions here](connectingpsp).
