@@ -135,17 +135,17 @@ Below table lists the PSPs supported by Asperato with the details of the feature
   <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Bottomline PTX</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">Bottomline PTX (Validation)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
