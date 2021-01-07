@@ -12,7 +12,7 @@ sidebar_label: Supported Payment Service Providers
 .tg .tg-oftd{background-color:#666;border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-k5c5{background-color:#666;border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-1rdj{background-color:#FFD966;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center}
-.tg .tg-58xa{background-color:#FFF;border-color:#000000;color:#F00;font-weight:bold;text-align:center;vertical-align:center}
+.tg .tg-58xa{background-color:#FFF;border-color:#000000;color:#F00;font-weight:bold;text-align:center;vertical-align:center}//N
 .tg .tg-w4l0{background-color:#B7B7B7;border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-y9n6{background-color:#FFE599;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center}
 .tg .tg-xdju{border-color:inherit;color:#274E13;text-align:left;vertical-align:center}
