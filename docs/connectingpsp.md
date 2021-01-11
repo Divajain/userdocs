@@ -54,7 +54,6 @@ For TEST
 For LIVE
 
 - 35.177.118.40
-- 162.13.56.213
 
 Where a subnet mask is required then use the value 255.255.255.255
 
@@ -220,8 +219,7 @@ There is an additional configuration task you will need to perform in order to a
 - Under the Settings tab there is a Valid IPs option, select that
 - Press the Add button
 - For testing set the IP address to 035.179.025.058, the Subnet mask to 255.255.255.255 and the Description to Asperato test
-- For live running set the IP address to 035.177.118.040, the Subnet mask to 255.255.255.255 and the Description to Asperato live1 and
-- For live running set the IP address to 162.013.056.213, the Subnet mask to 255.255.255.255 and the Description to Asperato live2
+- For live running set the IP address to 035.177.118.040, the Subnet mask to 255.255.255.255 and the Description to Asperato live
 
 ### Stripe
 You will need your API key to connect Stripe to Asperato.
