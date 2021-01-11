@@ -235,15 +235,14 @@ Stripe have implemented a new set of security rules to discourage merchants who 
 
 To enable Asperato to take payments on your behalf you will need to make an update to your Stripe configuration.
 
-Go to the URL: <a href="https://dashboard.stripe.com/account/integration/settings" target="_blank">https://dashboard.stripe.com/account/integration/settings</a>
+Go to the URL: <a href="https://dashboard.stripe.com/settings/integration" target="_blank">https://dashboard.stripe.com/settings/integration</a>
 
- - Log into Stripe, and on the page that displays click the 'Show advance options' link.<br/>
- - Enable the 'Process payments unsafely' link.<br/>
- - This will open a box with three questions that you have to agree to.<br/>
- - The last question will expect you to key in the name of the company that built the integration.  For this please enter 'Asperato Payment System Ltd'.<br/>
- - Finally, press the 'Process payments unsafely' button:
+ - Log into Stripe, and on the page that displays enable the 'Handle card information directly' link.<br/>
+ - This will open a box with three statements that you have to agree to.<br/>
+ - The last statement will open a drop down field where you need to select "I collect payment information securely through a PCI compliant third party vendor".<br/>
+ - Finally, enter "Payonomy Limited T/A Asperato" in the required text box and press the 'Continue' button:
 
-![Stripe direct API dialog](/userdocs/img/stripe_config.png "Stripe direct API dialog")
+![Stripe direct API dialog](/userdocs/img/stripe_config_new.png "Stripe direct API dialog")
 
 Stripe might then ask you to verify you phone number, but once that is complete then you'll be able to process transactions.
 
