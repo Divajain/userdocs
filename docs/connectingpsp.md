@@ -65,6 +65,7 @@ Asperato will require keys to connect to a user's payment service provider.
 
 Unfortunately, retrieving these keys is not consistent across providers. For PSPs listed here, you should be able to find the keys using the following instructions. For those not listed, you will need to contact your payment service provider for instructions.
 
+### Adyen
 To connect Adyen to Asperato you will need:
 
 - Merchant account
