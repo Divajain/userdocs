@@ -70,7 +70,7 @@ To use the template as an overlay, just three bits of Javascript are needed:
  - The following should be inserted in the `<head>` tag of the document:
 
 ```html
-<script src="https://live.protectedpayments.net/asperato-form-1.0.js"></script>
+<script src="https://live.protectedpayments.net/donationline/newnew/asperato-form-1.0.js"></script>
 ```
     
  - The following also needs to be inserted somewhere in the initialisation of the page (eg. in `<head>` or `window.onload`):
@@ -121,7 +121,7 @@ To use the paypage template in a Lightning Component, follow the steps below:
 
 1. Download the script from below URL, and save it in a new Javascript file
 
-https://live.protectedpayments.net/asperato-form-lighnting-1.0.js
+https://live.protectedpayments.net/donationline/newnew/asperato-form-lighnting-1.0.js
 
 2. Add this new file in a new static resource named PayPageJS
 3. Add below code in lightning component
